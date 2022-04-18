@@ -1,0 +1,2646 @@
+{
+  "header": {
+    "id": "Response ID",
+    "timestamp": "Timestamp (mm/dd/yyyy)",
+    "time": "Time Taken to Complete (Seconds)",
+    "country": "Country Code",
+    "region": "Region",
+    "safe3": "Ievadiet 3 vietas vai reģionus Rīgā, kuros Jūs jūtaties droši",
+    "notSafe3": "Ievadiet 3 vietas vai reģionus Rīgā, kuros Jūs jūtaties nedroši",
+    "data": {
+      "q": "Cik ļoti Jūs piekrītat dotajiem apgalvojumiem?",
+      "feelSafe": "Es jūtos droši šajā reģionā",
+      "smallCrime": "Šajā reģionā ir maza noziedzība",
+      "roadSafety": "Šajā reģionā ir laba satiksmes drošība",
+      "goodLighting": "Šajā reģionā ir labs apgaismojums",
+      "greeneries": "Šajā reģionā ir daudz zaļumu",
+      "viewDistance": "Šis reģions ir labi pārskatāms (iespējams labi pārredzēt apkārtni, nav blīva apbūve vai citi pārskatāmību ietekmējoši faktori )"
+    },
+    "pictures": [],
+    "sex": "Kāds ir Jūsu dzimums?",
+    "age": "Kāds ir Jūsu vecums?",
+    "liveInRiga": "Vai Jūs dzīvojat Rīgā?",
+    "whereInRiga": "Kur Rīgā Jūs dzīvojat?",
+    "whereInRigaOptions": [
+      "Atgāzene",
+      "Avotu iela",
+      "Āgenskalns",
+      "Beberbeķi",
+      "Berģi",
+      "Bieriņi",
+      "Bišumuiža",
+      "Bolderāja",
+      "Brasa",
+      "Brekši",
+      "Bukulti",
+      "Centrs",
+      "Čiekurkalns",
+      "Daugavgrīva",
+      "Dreiliņi",
+      "Dzirciems",
+      "Dārzciems",
+      "Dārziņi",
+      "Grīziņkalns",
+      "Imanta",
+      "Iļģuciems",
+      "Jaunciems",
+      "Jugla",
+      "Katlakalns",
+      "Kleisti",
+      "Kundziņsala",
+      "Ķengarags",
+      "Ķīpsala",
+      "Mangaļsala",
+      "Maskavas forštate",
+      "Mežaparks",
+      "Mežciems",
+      "Mīlgrāvis",
+      "Mūkupurvs",
+      "Pleskodāle",
+      "Purvciems",
+      "Pētersala-Andrejsala",
+      "Pļavnieki",
+      "Rumbula",
+      "Rītabuļļi",
+      "Salas",
+      "Sarkandaugava",
+      "Skanste",
+      "Spilve",
+      "Suži",
+      "Šampēteris",
+      "Šķirotava",
+      "Teika",
+      "Torņakalns",
+      "Trīsciems",
+      "Vecdaugava",
+      "Vecmīlgrāvis",
+      "Vecpilsēta",
+      "Vecāķi",
+      "Voleri",
+      "Zasulauks",
+      "Ziepniekkalns",
+      "Zolitūde"
+    ],
+    "whereOutRiga": "Kur ārpus Rīgas Jūs dzīvojat?",
+    "whereOutRigaOptions": [
+      "Pierīgā",
+      "Tālāk"
+    ],
+    "movement": {
+      "q": "Cik bieži Jūs pārvietojaties pa Rīgu katrā no minētajiem veidiem?​",
+      "feet": "Kājām​",
+      "bicycle": "Velosipēdu​",
+      "scooter": "Elektrisko skūteri​",
+      "transport": "Sabiedrisko transportu​",
+      "personal": "Personīgo auto​",
+      "taxi": "Taksi​"
+    }
+  },
+  "responses": [
+    {
+      "id": 70997691,
+      "status": "Completed",
+      "timestamp": "4/9/22 14:05",
+      "time": 546,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Mežaparks",
+        "Mežciems",
+        "Esplanāde"
+      ],
+      "notSafe3": [
+        "Centrs",
+        "Ķengarags",
+        "Stacija"
+      ],
+      "data": [
+        {
+          "feelSafe": 100,
+          "smallCrime": 91,
+          "roadSafety": 91,
+          "goodLighting": 61,
+          "greeneries": 100,
+          "viewDistance": 73
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 0,
+          "roadSafety": 20,
+          "goodLighting": 62,
+          "greeneries": 11,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 70,
+          "smallCrime": 36,
+          "roadSafety": 79,
+          "goodLighting": 68,
+          "greeneries": 87,
+          "viewDistance": 69
+        },
+        {
+          "feelSafe": 13,
+          "smallCrime": 35,
+          "roadSafety": 60,
+          "goodLighting": 50,
+          "greeneries": 69,
+          "viewDistance": 25
+        },
+        {
+          "feelSafe": 83,
+          "smallCrime": 63,
+          "roadSafety": 70,
+          "goodLighting": 57,
+          "greeneries": 92,
+          "viewDistance": 61
+        },
+        {
+          "feelSafe": 26,
+          "smallCrime": 7,
+          "roadSafety": 68,
+          "goodLighting": 60,
+          "greeneries": 30,
+          "viewDistance": 5
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 31,
+          "goodLighting": 35,
+          "greeneries": 65,
+          "viewDistance": 65
+        },
+        {
+          "feelSafe": 74,
+          "smallCrime": 40,
+          "roadSafety": 80,
+          "goodLighting": 82,
+          "greeneries": 83,
+          "viewDistance": 44
+        },
+        {
+          "feelSafe": 16,
+          "smallCrime": 0,
+          "roadSafety": 59,
+          "goodLighting": 66,
+          "greeneries": 72,
+          "viewDistance": 29
+        },
+        {
+          "feelSafe": 22,
+          "smallCrime": 23,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 72,
+          "viewDistance": 57
+        }
+      ],
+      "pictures": [
+        0,
+        25,
+        85,
+        0
+      ],
+      "sex": 2,
+      "age": 24,
+      "liveInRiga": 1,
+      "whereInRiga": 12,
+      "movement": {
+        "feet": 4,
+        "bicycle": 2,
+        "scooter": 2,
+        "transport": 2,
+        "personal": 5,
+        "taxi": 2
+      }
+    },
+    {
+      "id": 71005582,
+      "status": "Completed",
+      "timestamp": "4/9/22 15:56",
+      "time": 596,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Āgenskalns",
+        "Mežciems",
+        "Imanta"
+      ],
+      "notSafe3": [
+        "Centrālā stacija/tirgus",
+        "Maskavas forštate",
+        "Teika"
+      ],
+      "data": [
+        {
+          "feelSafe": 84,
+          "smallCrime": 50,
+          "roadSafety": 58,
+          "goodLighting": 45,
+          "greeneries": 100,
+          "viewDistance": 69
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 0,
+          "roadSafety": 78,
+          "goodLighting": 79,
+          "greeneries": 0,
+          "viewDistance": 24
+        },
+        {
+          "feelSafe": 100,
+          "smallCrime": 40,
+          "roadSafety": 72,
+          "goodLighting": 57,
+          "greeneries": 100,
+          "viewDistance": 58
+        },
+        {
+          "feelSafe": 33,
+          "smallCrime": 40,
+          "roadSafety": 63,
+          "goodLighting": 28,
+          "greeneries": 56,
+          "viewDistance": 34
+        },
+        {
+          "feelSafe": 31,
+          "smallCrime": 43,
+          "roadSafety": 60,
+          "goodLighting": 58,
+          "greeneries": 63,
+          "viewDistance": 63
+        },
+        {
+          "feelSafe": 63,
+          "smallCrime": 42,
+          "roadSafety": 65,
+          "goodLighting": 81,
+          "greeneries": 56,
+          "viewDistance": 29
+        },
+        {
+          "feelSafe": 56,
+          "smallCrime": 37,
+          "roadSafety": 55,
+          "goodLighting": 44,
+          "greeneries": 54,
+          "viewDistance": 53
+        },
+        {
+          "feelSafe": 100,
+          "smallCrime": 64,
+          "roadSafety": 72,
+          "goodLighting": 73,
+          "greeneries": 30,
+          "viewDistance": 22
+        },
+        {
+          "feelSafe": 30,
+          "smallCrime": 45,
+          "roadSafety": 68,
+          "goodLighting": 39,
+          "greeneries": 63,
+          "viewDistance": 57
+        },
+        {
+          "feelSafe": 66,
+          "smallCrime": 31,
+          "roadSafety": 60,
+          "goodLighting": 61,
+          "greeneries": 55,
+          "viewDistance": 44
+        }
+      ],
+      "pictures": [
+        70,
+        35,
+        80,
+        57
+      ],
+      "sex": 1,
+      "age": 22,
+      "liveInRiga": 1,
+      "whereInRiga": 12,
+      "movement": {
+        "feet": 4,
+        "bicycle": 2,
+        "scooter": 5,
+        "transport": 5,
+        "personal": 1,
+        "taxi": 1
+      }
+    },
+    {
+      "id": 71006308,
+      "status": "Started",
+      "timestamp": "4/9/22 16:06",
+      "time": 10,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        null,
+        null,
+        null
+      ],
+      "notSafe3": [
+        null,
+        null,
+        null
+      ],
+      "data": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "pictures": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "movement": {}
+    },
+    {
+      "id": 71006351,
+      "status": "Completed",
+      "timestamp": "4/9/22 16:06",
+      "time": 433,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Imanta",
+        "Mežciems",
+        "Rīgas centrs"
+      ],
+      "notSafe3": [
+        "Imanta",
+        "Mežciems",
+        "Rīgas centrs"
+      ],
+      "data": [
+        {
+          "feelSafe": 74,
+          "smallCrime": 69,
+          "roadSafety": 100,
+          "goodLighting": 100,
+          "greeneries": 100,
+          "viewDistance": 77
+        },
+        {
+          "feelSafe": 1,
+          "smallCrime": 0,
+          "roadSafety": 100,
+          "goodLighting": 33,
+          "greeneries": 1,
+          "viewDistance": 72
+        },
+        {
+          "feelSafe": 37,
+          "smallCrime": 18,
+          "roadSafety": 91,
+          "goodLighting": 63,
+          "greeneries": 0,
+          "viewDistance": 60
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 0,
+          "roadSafety": 98,
+          "goodLighting": 32,
+          "greeneries": 0,
+          "viewDistance": 83
+        },
+        {
+          "feelSafe": 7,
+          "smallCrime": 25,
+          "roadSafety": 100,
+          "goodLighting": 25,
+          "greeneries": 0,
+          "viewDistance": 67
+        },
+        {
+          "feelSafe": 29,
+          "smallCrime": 37,
+          "roadSafety": 100,
+          "goodLighting": 77,
+          "greeneries": 27,
+          "viewDistance": 98
+        },
+        {
+          "feelSafe": 40,
+          "smallCrime": 50,
+          "roadSafety": 46,
+          "goodLighting": 3,
+          "greeneries": 100,
+          "viewDistance": 17
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 77,
+          "roadSafety": 99,
+          "goodLighting": 66,
+          "greeneries": 0,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 1,
+          "smallCrime": 46,
+          "roadSafety": 59,
+          "goodLighting": 52,
+          "greeneries": 2,
+          "viewDistance": 62
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 2,
+          "roadSafety": 64,
+          "goodLighting": 44,
+          "greeneries": 76,
+          "viewDistance": 20
+        }
+      ],
+      "pictures": [
+        28,
+        42,
+        94,
+        1
+      ],
+      "sex": 1,
+      "age": 22,
+      "liveInRiga": 1,
+      "whereInRiga": 32,
+      "movement": {
+        "feet": 4,
+        "bicycle": 1,
+        "scooter": 1,
+        "transport": 5,
+        "personal": 1,
+        "taxi": 1
+      }
+    },
+    {
+      "id": 71007410,
+      "status": "Completed",
+      "timestamp": "4/9/22 16:21",
+      "time": 280,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Maskavas rajons",
+        "Ķengarags",
+        "Sarkandaugava"
+      ],
+      "notSafe3": [
+        "Mežaparks",
+        "Centrs",
+        "Āgenskalns"
+      ],
+      "data": [
+        {
+          "feelSafe": 33,
+          "smallCrime": 60,
+          "roadSafety": 60,
+          "goodLighting": 62,
+          "greeneries": 65,
+          "viewDistance": 34
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 0,
+          "roadSafety": 37,
+          "goodLighting": 73,
+          "greeneries": 25,
+          "viewDistance": 64
+        },
+        {
+          "feelSafe": 100,
+          "smallCrime": 42,
+          "roadSafety": 58,
+          "goodLighting": 40,
+          "greeneries": 60,
+          "viewDistance": 40
+        },
+        {
+          "feelSafe": 27,
+          "smallCrime": 33,
+          "roadSafety": 31,
+          "goodLighting": 27,
+          "greeneries": 36,
+          "viewDistance": 30
+        },
+        {
+          "feelSafe": 72,
+          "smallCrime": 37,
+          "roadSafety": 65,
+          "goodLighting": 34,
+          "greeneries": 62,
+          "viewDistance": 67
+        },
+        {
+          "feelSafe": 72,
+          "smallCrime": 40,
+          "roadSafety": 61,
+          "goodLighting": 61,
+          "greeneries": 56,
+          "viewDistance": 64
+        },
+        {
+          "feelSafe": 62,
+          "smallCrime": 67,
+          "roadSafety": 74,
+          "goodLighting": 27,
+          "greeneries": 65,
+          "viewDistance": 28
+        },
+        {
+          "feelSafe": 65,
+          "smallCrime": 66,
+          "roadSafety": 66,
+          "goodLighting": 66,
+          "greeneries": 65,
+          "viewDistance": 69
+        },
+        {
+          "feelSafe": 39,
+          "smallCrime": 65,
+          "roadSafety": 39,
+          "goodLighting": 66,
+          "greeneries": 35,
+          "viewDistance": 66
+        },
+        {
+          "feelSafe": 34,
+          "smallCrime": 68,
+          "roadSafety": 32,
+          "goodLighting": 71,
+          "greeneries": 60,
+          "viewDistance": 39
+        }
+      ],
+      "pictures": [
+        15,
+        68,
+        63,
+        32
+      ],
+      "sex": 1,
+      "age": 23,
+      "liveInRiga": 1,
+      "whereInRiga": 12,
+      "movement": {
+        "feet": 5,
+        "bicycle": 4,
+        "scooter": 1,
+        "transport": 4,
+        "personal": 5,
+        "taxi": 3
+      }
+    },
+    {
+      "id": 71017502,
+      "status": "Started",
+      "timestamp": "4/9/22 18:21",
+      "time": 6,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        null,
+        null,
+        null
+      ],
+      "notSafe3": [
+        null,
+        null,
+        null
+      ],
+      "data": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "pictures": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "movement": {}
+    },
+    {
+      "id": 71018225,
+      "status": "Completed",
+      "timestamp": "4/9/22 18:29",
+      "time": 400,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Mežciems",
+        "Teika",
+        "Mežaparks"
+      ],
+      "notSafe3": [
+        "Ķengarags",
+        "Centrs",
+        "Brasa"
+      ],
+      "data": [
+        {
+          "feelSafe": 81,
+          "smallCrime": 68,
+          "roadSafety": 50,
+          "goodLighting": 34,
+          "greeneries": 100,
+          "viewDistance": 70
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 0,
+          "roadSafety": 0,
+          "goodLighting": 0,
+          "greeneries": 0,
+          "viewDistance": 36
+        },
+        {
+          "feelSafe": 34,
+          "smallCrime": 39,
+          "roadSafety": 31,
+          "goodLighting": 36,
+          "greeneries": 70,
+          "viewDistance": 69
+        },
+        {
+          "feelSafe": 18,
+          "smallCrime": 34,
+          "roadSafety": 11,
+          "goodLighting": 12,
+          "greeneries": 27,
+          "viewDistance": 14
+        },
+        {
+          "feelSafe": 39,
+          "smallCrime": 36,
+          "roadSafety": 38,
+          "goodLighting": 49,
+          "greeneries": 66,
+          "viewDistance": 56
+        },
+        {
+          "feelSafe": 21,
+          "smallCrime": 17,
+          "roadSafety": 40,
+          "goodLighting": 21,
+          "greeneries": 4,
+          "viewDistance": 4
+        },
+        {
+          "feelSafe": 42,
+          "smallCrime": 40,
+          "roadSafety": 39,
+          "goodLighting": 11,
+          "greeneries": 24,
+          "viewDistance": 73
+        },
+        {
+          "feelSafe": 52,
+          "smallCrime": 50,
+          "roadSafety": 43,
+          "goodLighting": 29,
+          "greeneries": 45,
+          "viewDistance": 52
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 0,
+          "roadSafety": 20,
+          "goodLighting": 10,
+          "greeneries": 39,
+          "viewDistance": 32
+        },
+        {
+          "feelSafe": 22,
+          "smallCrime": 44,
+          "roadSafety": 53,
+          "goodLighting": 49,
+          "greeneries": 71,
+          "viewDistance": 72
+        }
+      ],
+      "pictures": [
+        22,
+        25,
+        76,
+        10
+      ],
+      "sex": 2,
+      "age": 22,
+      "liveInRiga": 1,
+      "whereInRiga": 32,
+      "movement": {
+        "feet": 4,
+        "bicycle": 2,
+        "scooter": 3,
+        "transport": 3,
+        "personal": 3,
+        "taxi": 1
+      }
+    },
+    {
+      "id": 71018775,
+      "status": "Completed",
+      "timestamp": "4/9/22 18:35",
+      "time": 1029,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Mežciems",
+        "Mežaparks",
+        "Skanste"
+      ],
+      "notSafe3": [
+        "Purvciems",
+        "Jugla",
+        "Čiekurkalns"
+      ],
+      "data": [
+        {
+          "feelSafe": 61,
+          "smallCrime": 59,
+          "roadSafety": 40,
+          "goodLighting": 50,
+          "greeneries": 79,
+          "viewDistance": 69
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 0,
+          "roadSafety": 22,
+          "goodLighting": 61,
+          "greeneries": 0,
+          "viewDistance": 61
+        },
+        {
+          "feelSafe": 20,
+          "smallCrime": 30,
+          "roadSafety": 30,
+          "goodLighting": 30,
+          "greeneries": 70,
+          "viewDistance": 60
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 0,
+          "roadSafety": 27,
+          "goodLighting": 24,
+          "greeneries": 17,
+          "viewDistance": 12
+        },
+        {
+          "feelSafe": 26,
+          "smallCrime": 36,
+          "roadSafety": 50,
+          "goodLighting": 37,
+          "greeneries": 38,
+          "viewDistance": 41
+        },
+        {
+          "feelSafe": 19,
+          "smallCrime": 16,
+          "roadSafety": 18,
+          "goodLighting": 37,
+          "greeneries": 19,
+          "viewDistance": 12
+        },
+        {
+          "feelSafe": 33,
+          "smallCrime": 35,
+          "roadSafety": 32,
+          "goodLighting": 27,
+          "greeneries": 15,
+          "viewDistance": 70
+        },
+        {
+          "feelSafe": 41,
+          "smallCrime": 48,
+          "roadSafety": 44,
+          "goodLighting": 32,
+          "greeneries": 21,
+          "viewDistance": 33
+        },
+        {
+          "feelSafe": 9,
+          "smallCrime": 8,
+          "roadSafety": 30,
+          "goodLighting": 20,
+          "greeneries": 21,
+          "viewDistance": 21
+        },
+        {
+          "feelSafe": 18,
+          "smallCrime": 15,
+          "roadSafety": 13,
+          "goodLighting": 17,
+          "greeneries": 84,
+          "viewDistance": 70
+        }
+      ],
+      "pictures": [
+        0,
+        14,
+        80,
+        0
+      ],
+      "sex": 1,
+      "age": 17,
+      "liveInRiga": 1,
+      "whereInRiga": 32,
+      "movement": {
+        "feet": 5,
+        "bicycle": 4,
+        "scooter": 1,
+        "transport": 5,
+        "personal": 4,
+        "taxi": 2
+      }
+    },
+    {
+      "id": 71020295,
+      "status": "Completed",
+      "timestamp": "4/9/22 18:53",
+      "time": 510,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Teika",
+        "Mārupe",
+        "Mežparks"
+      ],
+      "notSafe3": [
+        "Centrs",
+        "Purvciems",
+        "Imanta"
+      ],
+      "data": [
+        {
+          "feelSafe": 91,
+          "smallCrime": 56,
+          "roadSafety": 69,
+          "goodLighting": 75,
+          "greeneries": 92,
+          "viewDistance": 72
+        },
+        {
+          "feelSafe": 23,
+          "smallCrime": 11,
+          "roadSafety": 13,
+          "goodLighting": 17,
+          "greeneries": 8,
+          "viewDistance": 10
+        },
+        {
+          "feelSafe": 60,
+          "smallCrime": 42,
+          "roadSafety": 65,
+          "goodLighting": 60,
+          "greeneries": 71,
+          "viewDistance": 40
+        },
+        {
+          "feelSafe": 40,
+          "smallCrime": 14,
+          "roadSafety": 28,
+          "goodLighting": 37,
+          "greeneries": 32,
+          "viewDistance": 62
+        },
+        {
+          "feelSafe": 10,
+          "smallCrime": 8,
+          "roadSafety": 31,
+          "goodLighting": 68,
+          "greeneries": 24,
+          "viewDistance": 24
+        },
+        {
+          "feelSafe": 61,
+          "smallCrime": 21,
+          "roadSafety": 74,
+          "goodLighting": 69,
+          "greeneries": 15,
+          "viewDistance": 26
+        },
+        {
+          "feelSafe": 31,
+          "smallCrime": 26,
+          "roadSafety": 35,
+          "goodLighting": 32,
+          "greeneries": 32,
+          "viewDistance": 10
+        },
+        {
+          "feelSafe": 64,
+          "smallCrime": 44,
+          "roadSafety": 80,
+          "goodLighting": 41,
+          "greeneries": 47,
+          "viewDistance": 41
+        },
+        {
+          "feelSafe": 28,
+          "smallCrime": 11,
+          "roadSafety": 60,
+          "goodLighting": 70,
+          "greeneries": 75,
+          "viewDistance": 27
+        },
+        {
+          "feelSafe": 70,
+          "smallCrime": 40,
+          "roadSafety": 72,
+          "goodLighting": 42,
+          "greeneries": 78,
+          "viewDistance": 68
+        }
+      ],
+      "pictures": [
+        26,
+        30,
+        80,
+        52
+      ],
+      "sex": 2,
+      "age": 22,
+      "liveInRiga": 1,
+      "whereInRiga": 48,
+      "movement": {
+        "feet": 5,
+        "bicycle": 2,
+        "scooter": 4,
+        "transport": 3,
+        "personal": 2,
+        "taxi": 2
+      }
+    },
+    {
+      "id": 71033191,
+      "status": "Completed",
+      "timestamp": "4/9/22 21:15",
+      "time": 937,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Mežciems",
+        "Mežaparks",
+        "Teika"
+      ],
+      "notSafe3": [
+        "Mežciems",
+        "Teika",
+        "Mežaparks"
+      ],
+      "data": [
+        {
+          "feelSafe": 67,
+          "smallCrime": 67,
+          "roadSafety": 67,
+          "goodLighting": 67,
+          "greeneries": 98,
+          "viewDistance": 86
+        },
+        {
+          "feelSafe": 21,
+          "smallCrime": 0,
+          "roadSafety": 22,
+          "goodLighting": 50,
+          "greeneries": 23,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 63,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 77,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 58,
+          "smallCrime": 59,
+          "roadSafety": 59,
+          "goodLighting": 62,
+          "greeneries": 50,
+          "viewDistance": 62
+        },
+        {
+          "feelSafe": 63,
+          "smallCrime": 50,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 50,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 55,
+          "smallCrime": 39,
+          "roadSafety": 39,
+          "goodLighting": 71,
+          "greeneries": 39,
+          "viewDistance": 39
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 18,
+          "goodLighting": 19,
+          "greeneries": 67,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 73,
+          "smallCrime": 64,
+          "roadSafety": 64,
+          "goodLighting": 64,
+          "greeneries": 82,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 33,
+          "smallCrime": 5,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 50,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 10,
+          "roadSafety": 10,
+          "goodLighting": 32,
+          "greeneries": 32,
+          "viewDistance": 41
+        }
+      ],
+      "pictures": [
+        50,
+        86,
+        74,
+        76
+      ],
+      "sex": 2,
+      "age": 47,
+      "liveInRiga": 1,
+      "whereInRiga": 32,
+      "movement": {
+        "feet": 4,
+        "bicycle": 3,
+        "scooter": 1,
+        "transport": 2,
+        "personal": 5,
+        "taxi": 2
+      }
+    },
+    {
+      "id": 71035346,
+      "status": "Completed",
+      "timestamp": "4/9/22 21:41",
+      "time": 377,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Centrs",
+        "Dārzciems",
+        "Skanste"
+      ],
+      "notSafe3": [
+        "Pārdaugavas rajoni",
+        "Ķengarags",
+        "Maskačka"
+      ],
+      "data": [
+        {
+          "feelSafe": 75,
+          "smallCrime": 56,
+          "roadSafety": 56,
+          "goodLighting": 63,
+          "greeneries": 85,
+          "viewDistance": 54
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 0,
+          "roadSafety": 37,
+          "goodLighting": 66,
+          "greeneries": 31,
+          "viewDistance": 40
+        },
+        {
+          "feelSafe": 83,
+          "smallCrime": 86,
+          "roadSafety": 63,
+          "goodLighting": 85,
+          "greeneries": 61,
+          "viewDistance": 42
+        },
+        {
+          "feelSafe": 44,
+          "smallCrime": 41,
+          "roadSafety": 52,
+          "goodLighting": 66,
+          "greeneries": 45,
+          "viewDistance": 45
+        },
+        {
+          "feelSafe": 51,
+          "smallCrime": 53,
+          "roadSafety": 55,
+          "goodLighting": 69,
+          "greeneries": 52,
+          "viewDistance": 29
+        },
+        {
+          "feelSafe": 75,
+          "smallCrime": 49,
+          "roadSafety": 87,
+          "goodLighting": 72,
+          "greeneries": 18,
+          "viewDistance": 26
+        },
+        {
+          "feelSafe": 43,
+          "smallCrime": 46,
+          "roadSafety": 54,
+          "goodLighting": 74,
+          "greeneries": 42,
+          "viewDistance": 59
+        },
+        {
+          "feelSafe": 61,
+          "smallCrime": 53,
+          "roadSafety": 71,
+          "goodLighting": 75,
+          "greeneries": 69,
+          "viewDistance": 66
+        },
+        {
+          "feelSafe": 5,
+          "smallCrime": 13,
+          "roadSafety": 44,
+          "goodLighting": 65,
+          "greeneries": 47,
+          "viewDistance": 37
+        },
+        {
+          "feelSafe": 8,
+          "smallCrime": 41,
+          "roadSafety": 50,
+          "goodLighting": 72,
+          "greeneries": 45,
+          "viewDistance": 29
+        }
+      ],
+      "pictures": [
+        14,
+        76,
+        81,
+        50
+      ],
+      "sex": 1,
+      "age": 24,
+      "liveInRiga": 1,
+      "whereInRiga": 17,
+      "movement": {
+        "feet": 4,
+        "bicycle": 2,
+        "scooter": 1,
+        "transport": 4,
+        "personal": 2,
+        "taxi": 3
+      }
+    },
+    {
+      "id": 71079620,
+      "status": "Completed",
+      "timestamp": "4/10/22 10:31",
+      "time": 650,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Mežciems",
+        "Teika",
+        "āgenskalns"
+      ],
+      "notSafe3": [
+        "ķengarags",
+        "Centrs",
+        "Pļavnieki"
+      ],
+      "data": [
+        {
+          "feelSafe": 97,
+          "smallCrime": 100,
+          "roadSafety": 100,
+          "goodLighting": 81,
+          "greeneries": 100,
+          "viewDistance": 100
+        },
+        {
+          "feelSafe": 8,
+          "smallCrime": 8,
+          "roadSafety": 8,
+          "goodLighting": 50,
+          "greeneries": 8,
+          "viewDistance": 8
+        },
+        {
+          "feelSafe": 99,
+          "smallCrime": 99,
+          "roadSafety": 61,
+          "goodLighting": 59,
+          "greeneries": 98,
+          "viewDistance": 70
+        },
+        {
+          "feelSafe": 92,
+          "smallCrime": 92,
+          "roadSafety": 92,
+          "goodLighting": 50,
+          "greeneries": 22,
+          "viewDistance": 41
+        },
+        {
+          "feelSafe": 86,
+          "smallCrime": 78,
+          "roadSafety": 87,
+          "goodLighting": 56,
+          "greeneries": 87,
+          "viewDistance": 69
+        },
+        {
+          "feelSafe": 86,
+          "smallCrime": 26,
+          "roadSafety": 26,
+          "goodLighting": 100,
+          "greeneries": 26,
+          "viewDistance": 26
+        },
+        {
+          "feelSafe": 33,
+          "smallCrime": 88,
+          "roadSafety": 88,
+          "goodLighting": 33,
+          "greeneries": 51,
+          "viewDistance": 89
+        },
+        {
+          "feelSafe": 100,
+          "smallCrime": 100,
+          "roadSafety": 80,
+          "goodLighting": 80,
+          "greeneries": 24,
+          "viewDistance": 57
+        },
+        {
+          "feelSafe": 24,
+          "smallCrime": 24,
+          "roadSafety": 64,
+          "goodLighting": 24,
+          "greeneries": 24,
+          "viewDistance": 39
+        },
+        {
+          "feelSafe": 4,
+          "smallCrime": 4,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 50,
+          "viewDistance": 50
+        }
+      ],
+      "pictures": [
+        7,
+        94,
+        99,
+        8
+      ],
+      "sex": 1,
+      "age": 49,
+      "liveInRiga": 1,
+      "whereInRiga": 32,
+      "movement": {
+        "feet": 4,
+        "bicycle": 2,
+        "scooter": 1,
+        "transport": 3,
+        "personal": 5,
+        "taxi": 1
+      }
+    },
+    {
+      "id": 71087834,
+      "status": "Started",
+      "timestamp": "4/10/22 14:19",
+      "time": 3,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        null,
+        null,
+        null
+      ],
+      "notSafe3": [
+        null,
+        null,
+        null
+      ],
+      "data": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "pictures": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "movement": {}
+    },
+    {
+      "id": 71109482,
+      "status": "Completed",
+      "timestamp": "4/10/22 18:45",
+      "time": 532,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Centrs",
+        "Agenskalns",
+        "Mežaparks"
+      ],
+      "notSafe3": [
+        "Valmieras/Bruņinieku ielas apkārtne",
+        "Autoosta",
+        "Bolderāja"
+      ],
+      "data": [
+        {
+          "feelSafe": 100,
+          "smallCrime": 95,
+          "roadSafety": 93,
+          "goodLighting": 94,
+          "greeneries": 100,
+          "viewDistance": 91
+        },
+        {
+          "feelSafe": 33,
+          "smallCrime": 25,
+          "roadSafety": 28,
+          "goodLighting": 53,
+          "greeneries": 5,
+          "viewDistance": 42
+        },
+        {
+          "feelSafe": 93,
+          "smallCrime": 80,
+          "roadSafety": 63,
+          "goodLighting": 60,
+          "greeneries": 100,
+          "viewDistance": 64
+        },
+        {
+          "feelSafe": 26,
+          "smallCrime": 19,
+          "roadSafety": 25,
+          "goodLighting": 63,
+          "greeneries": 68,
+          "viewDistance": 71
+        },
+        {
+          "feelSafe": 67,
+          "smallCrime": 67,
+          "roadSafety": 65,
+          "goodLighting": 91,
+          "greeneries": 89,
+          "viewDistance": 85
+        },
+        {
+          "feelSafe": 76,
+          "smallCrime": 81,
+          "roadSafety": 90,
+          "goodLighting": 90,
+          "greeneries": 41,
+          "viewDistance": 66
+        },
+        {
+          "feelSafe": 66,
+          "smallCrime": 33,
+          "roadSafety": 44,
+          "goodLighting": 52,
+          "greeneries": 54,
+          "viewDistance": 77
+        },
+        {
+          "feelSafe": 99,
+          "smallCrime": 87,
+          "roadSafety": 92,
+          "goodLighting": 93,
+          "greeneries": 66,
+          "viewDistance": 74
+        },
+        {
+          "feelSafe": 16,
+          "smallCrime": 11,
+          "roadSafety": 36,
+          "goodLighting": 32,
+          "greeneries": 78,
+          "viewDistance": 66
+        },
+        {
+          "feelSafe": 9,
+          "smallCrime": 0,
+          "roadSafety": 0,
+          "goodLighting": 20,
+          "greeneries": 64,
+          "viewDistance": 18
+        }
+      ],
+      "pictures": [
+        1,
+        99,
+        84,
+        13
+      ],
+      "sex": 2,
+      "age": 46,
+      "liveInRiga": 1,
+      "whereInRiga": 12,
+      "movement": {
+        "feet": 5,
+        "bicycle": 1,
+        "scooter": 1,
+        "transport": 2,
+        "personal": 3,
+        "taxi": 4
+      }
+    },
+    {
+      "id": 71175703,
+      "status": "Completed",
+      "timestamp": "4/11/22 8:58",
+      "time": 1371,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Klusais centrs",
+        "Imanta",
+        "Āgenskalns"
+      ],
+      "notSafe3": [
+        "Maskavas forštate",
+        "Latgales priekšpilsēta",
+        "Stacijas laukums"
+      ],
+      "data": [
+        {
+          "feelSafe": 93,
+          "smallCrime": 71,
+          "roadSafety": 88,
+          "goodLighting": 93,
+          "greeneries": 100,
+          "viewDistance": 63
+        },
+        {
+          "feelSafe": 38,
+          "smallCrime": 24,
+          "roadSafety": 93,
+          "goodLighting": 93,
+          "greeneries": 53,
+          "viewDistance": 62
+        },
+        {
+          "feelSafe": 99,
+          "smallCrime": 80,
+          "roadSafety": 94,
+          "goodLighting": 94,
+          "greeneries": 100,
+          "viewDistance": 93
+        },
+        {
+          "feelSafe": 81,
+          "smallCrime": 66,
+          "roadSafety": 50,
+          "goodLighting": 83,
+          "greeneries": 59,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 81,
+          "smallCrime": 60,
+          "roadSafety": 54,
+          "goodLighting": 72,
+          "greeneries": 84,
+          "viewDistance": 47
+        },
+        {
+          "feelSafe": 83,
+          "smallCrime": 49,
+          "roadSafety": 76,
+          "goodLighting": 88,
+          "greeneries": 93,
+          "viewDistance": 76
+        },
+        {
+          "feelSafe": 96,
+          "smallCrime": 71,
+          "roadSafety": 78,
+          "goodLighting": 92,
+          "greeneries": 92,
+          "viewDistance": 70
+        },
+        {
+          "feelSafe": 100,
+          "smallCrime": 67,
+          "roadSafety": 95,
+          "goodLighting": 100,
+          "greeneries": 98,
+          "viewDistance": 91
+        },
+        {
+          "feelSafe": 33,
+          "smallCrime": 40,
+          "roadSafety": 45,
+          "goodLighting": 76,
+          "greeneries": 64,
+          "viewDistance": 46
+        },
+        {
+          "feelSafe": 61,
+          "smallCrime": 54,
+          "roadSafety": 68,
+          "goodLighting": 80,
+          "greeneries": 84,
+          "viewDistance": 50
+        }
+      ],
+      "pictures": [
+        49,
+        91,
+        87,
+        61
+      ],
+      "sex": 1,
+      "age": 37,
+      "liveInRiga": 2,
+      "whereOutRiga": 1,
+      "movement": {
+        "feet": 4,
+        "bicycle": 2,
+        "scooter": 1,
+        "transport": 4,
+        "personal": 5,
+        "taxi": 2
+      }
+    },
+    {
+      "id": 71175803,
+      "status": "Completed",
+      "timestamp": "4/11/22 9:01",
+      "time": 1099,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "centrs",
+        "Dārzciems",
+        "Bieriņi"
+      ],
+      "notSafe3": [
+        "'Maskačka'",
+        "Bolderāja",
+        "Centrāltirgus apkaime"
+      ],
+      "data": [
+        {
+          "feelSafe": 78,
+          "smallCrime": 68,
+          "roadSafety": 67,
+          "goodLighting": 68,
+          "greeneries": 98,
+          "viewDistance": 80
+        },
+        {
+          "feelSafe": 49,
+          "smallCrime": 35,
+          "roadSafety": 50,
+          "goodLighting": 73,
+          "greeneries": 6,
+          "viewDistance": 33
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 50,
+          "goodLighting": 67,
+          "greeneries": 61,
+          "viewDistance": 55
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 59,
+          "goodLighting": 60,
+          "greeneries": 83,
+          "viewDistance": 68
+        },
+        {
+          "feelSafe": 57,
+          "smallCrime": 50,
+          "roadSafety": 58,
+          "goodLighting": 59,
+          "greeneries": 81,
+          "viewDistance": 60
+        },
+        {
+          "feelSafe": 95,
+          "smallCrime": 76,
+          "roadSafety": 96,
+          "goodLighting": 86,
+          "greeneries": 37,
+          "viewDistance": 41
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 42,
+          "goodLighting": 46,
+          "greeneries": 69,
+          "viewDistance": 46
+        },
+        {
+          "feelSafe": 94,
+          "smallCrime": 94,
+          "roadSafety": 90,
+          "goodLighting": 91,
+          "greeneries": 65,
+          "viewDistance": 84
+        },
+        {
+          "feelSafe": 37,
+          "smallCrime": 62,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 69,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 29,
+          "smallCrime": 29,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 54,
+          "viewDistance": 33
+        }
+      ],
+      "pictures": [
+        51,
+        93,
+        89,
+        54
+      ],
+      "sex": 1,
+      "age": 54,
+      "liveInRiga": 1,
+      "whereInRiga": 17,
+      "movement": {
+        "feet": 4,
+        "bicycle": 3,
+        "scooter": 1,
+        "transport": 2,
+        "personal": 4,
+        "taxi": 2
+      }
+    },
+    {
+      "id": 71175918,
+      "status": "Completed",
+      "timestamp": "4/11/22 9:05",
+      "time": 1209,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Mārupe",
+        "Bieriņi",
+        "Centrs"
+      ],
+      "notSafe3": [
+        "Bolderāja",
+        "Maskačka",
+        "Imanta"
+      ],
+      "data": [
+        {
+          "feelSafe": 75,
+          "smallCrime": 80,
+          "roadSafety": 75,
+          "goodLighting": 75,
+          "greeneries": 90,
+          "viewDistance": 91
+        },
+        {
+          "feelSafe": 60,
+          "smallCrime": 40,
+          "roadSafety": 65,
+          "goodLighting": 75,
+          "greeneries": 45,
+          "viewDistance": 70
+        },
+        {
+          "feelSafe": 55,
+          "smallCrime": 55,
+          "roadSafety": 55,
+          "goodLighting": 45,
+          "greeneries": 60,
+          "viewDistance": 55
+        },
+        {
+          "feelSafe": 55,
+          "smallCrime": 30,
+          "roadSafety": 55,
+          "goodLighting": 60,
+          "greeneries": 55,
+          "viewDistance": 30
+        },
+        {
+          "feelSafe": 65,
+          "smallCrime": 60,
+          "roadSafety": 65,
+          "goodLighting": 65,
+          "greeneries": 65,
+          "viewDistance": 45
+        },
+        {
+          "feelSafe": 80,
+          "smallCrime": 65,
+          "roadSafety": 90,
+          "goodLighting": 85,
+          "greeneries": 40,
+          "viewDistance": 80
+        },
+        {
+          "feelSafe": 70,
+          "smallCrime": 60,
+          "roadSafety": 70,
+          "goodLighting": 80,
+          "greeneries": 55,
+          "viewDistance": 55
+        },
+        {
+          "feelSafe": 70,
+          "smallCrime": 65,
+          "roadSafety": 80,
+          "goodLighting": 85,
+          "greeneries": 55,
+          "viewDistance": 55
+        },
+        {
+          "feelSafe": 30,
+          "smallCrime": 30,
+          "roadSafety": 45,
+          "goodLighting": 50,
+          "greeneries": 30,
+          "viewDistance": 40
+        },
+        {
+          "feelSafe": 25,
+          "smallCrime": 20,
+          "roadSafety": 60,
+          "goodLighting": 55,
+          "greeneries": 40,
+          "viewDistance": 45
+        }
+      ],
+      "pictures": [
+        40,
+        85,
+        85,
+        40
+      ],
+      "sex": 1,
+      "age": 46,
+      "liveInRiga": 1,
+      "whereInRiga": 12,
+      "movement": {
+        "feet": 4,
+        "bicycle": 2,
+        "scooter": 2,
+        "transport": 5,
+        "personal": 1,
+        "taxi": 2
+      }
+    },
+    {
+      "id": 71176179,
+      "status": "Completed",
+      "timestamp": "4/11/22 9:12",
+      "time": 582,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Teika",
+        "Mežciems",
+        "Centrs"
+      ],
+      "notSafe3": [
+        "Jugla",
+        "Ķengarags",
+        "Sarkandaugava"
+      ],
+      "data": [
+        {
+          "feelSafe": 69,
+          "smallCrime": 69,
+          "roadSafety": 69,
+          "goodLighting": 68,
+          "greeneries": 99,
+          "viewDistance": 38
+        },
+        {
+          "feelSafe": 20,
+          "smallCrime": 17,
+          "roadSafety": 38,
+          "goodLighting": 58,
+          "greeneries": 8,
+          "viewDistance": 41
+        },
+        {
+          "feelSafe": 69,
+          "smallCrime": 70,
+          "roadSafety": 70,
+          "goodLighting": 70,
+          "greeneries": 70,
+          "viewDistance": 33
+        },
+        {
+          "feelSafe": 25,
+          "smallCrime": 24,
+          "roadSafety": 65,
+          "goodLighting": 66,
+          "greeneries": 58,
+          "viewDistance": 71
+        },
+        {
+          "feelSafe": 24,
+          "smallCrime": 23,
+          "roadSafety": 71,
+          "goodLighting": 35,
+          "greeneries": 63,
+          "viewDistance": 65
+        },
+        {
+          "feelSafe": 75,
+          "smallCrime": 75,
+          "roadSafety": 75,
+          "goodLighting": 74,
+          "greeneries": 74,
+          "viewDistance": 34
+        },
+        {
+          "feelSafe": 32,
+          "smallCrime": 32,
+          "roadSafety": 52,
+          "goodLighting": 54,
+          "greeneries": 66,
+          "viewDistance": 64
+        },
+        {
+          "feelSafe": 71,
+          "smallCrime": 71,
+          "roadSafety": 70,
+          "goodLighting": 71,
+          "greeneries": 46,
+          "viewDistance": 27
+        },
+        {
+          "feelSafe": 19,
+          "smallCrime": 17,
+          "roadSafety": 70,
+          "goodLighting": 34,
+          "greeneries": 66,
+          "viewDistance": 58
+        },
+        {
+          "feelSafe": 25,
+          "smallCrime": 44,
+          "roadSafety": 44,
+          "goodLighting": 44,
+          "greeneries": 77,
+          "viewDistance": 27
+        }
+      ],
+      "pictures": [
+        22,
+        79,
+        74,
+        44
+      ],
+      "sex": 1,
+      "age": 50,
+      "liveInRiga": 2,
+      "whereOutRiga": 1,
+      "movement": {
+        "feet": 2,
+        "bicycle": 1,
+        "scooter": 1,
+        "transport": 2,
+        "personal": 5,
+        "taxi": 2
+      }
+    },
+    {
+      "id": 71176199,
+      "status": "Completed",
+      "timestamp": "4/11/22 9:12",
+      "time": 513,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Centrs",
+        "Dārziņi",
+        "Pārdaugava"
+      ],
+      "notSafe3": [
+        "Centrālās stacijas/tirgus apkaime",
+        "Pļavnieki",
+        "Rumbula"
+      ],
+      "data": [
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 70,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 20,
+          "smallCrime": 20,
+          "roadSafety": 28,
+          "goodLighting": 34,
+          "greeneries": 19,
+          "viewDistance": 38
+        },
+        {
+          "feelSafe": 60,
+          "smallCrime": 46,
+          "roadSafety": 37,
+          "goodLighting": 50,
+          "greeneries": 58,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 50,
+          "goodLighting": 52,
+          "greeneries": 49,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 53,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 68,
+          "smallCrime": 50,
+          "roadSafety": 65,
+          "goodLighting": 65,
+          "greeneries": 33,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 42,
+          "smallCrime": 50,
+          "roadSafety": 43,
+          "goodLighting": 50,
+          "greeneries": 50,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 65,
+          "smallCrime": 56,
+          "roadSafety": 54,
+          "goodLighting": 50,
+          "greeneries": 40,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 42,
+          "smallCrime": 28,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 42,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 30,
+          "smallCrime": 27,
+          "roadSafety": 39,
+          "goodLighting": 40,
+          "greeneries": 50,
+          "viewDistance": 50
+        }
+      ],
+      "pictures": [
+        21,
+        55,
+        46,
+        40
+      ],
+      "sex": 1,
+      "age": 45,
+      "liveInRiga": 1,
+      "whereInRiga": 18,
+      "movement": {
+        "feet": 3,
+        "bicycle": 2,
+        "scooter": 1,
+        "transport": 2,
+        "personal": 5,
+        "taxi": 3
+      }
+    },
+    {
+      "id": 71176506,
+      "status": "Completed",
+      "timestamp": "4/11/22 9:23",
+      "time": 401,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Mežciems",
+        "Purvciems",
+        "Centrs"
+      ],
+      "notSafe3": [
+        "'Maskačka'",
+        "Ķengarags",
+        "Zolitūde"
+      ],
+      "data": [
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 50,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 24,
+          "smallCrime": 24,
+          "roadSafety": 24,
+          "goodLighting": 24,
+          "greeneries": 23,
+          "viewDistance": 23
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 50,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 50,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 40,
+          "smallCrime": 40,
+          "roadSafety": 40,
+          "goodLighting": 40,
+          "greeneries": 40,
+          "viewDistance": 40
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 50,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 38,
+          "smallCrime": 38,
+          "roadSafety": 38,
+          "goodLighting": 38,
+          "greeneries": 38,
+          "viewDistance": 38
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 50,
+          "roadSafety": 50,
+          "goodLighting": 50,
+          "greeneries": 50,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 30,
+          "smallCrime": 30,
+          "roadSafety": 30,
+          "goodLighting": 30,
+          "greeneries": 30,
+          "viewDistance": 30
+        },
+        {
+          "feelSafe": 30,
+          "smallCrime": 30,
+          "roadSafety": 30,
+          "goodLighting": 29,
+          "greeneries": 29,
+          "viewDistance": 29
+        }
+      ],
+      "pictures": [
+        19,
+        50,
+        50,
+        30
+      ],
+      "sex": 1,
+      "age": 42,
+      "liveInRiga": 1,
+      "whereInRiga": 32,
+      "movement": {
+        "feet": 4,
+        "bicycle": 3,
+        "scooter": 2,
+        "transport": 3,
+        "personal": 5,
+        "taxi": 3
+      }
+    },
+    {
+      "id": 71177582,
+      "status": "Completed",
+      "timestamp": "4/11/22 10:03",
+      "time": 442,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Rīga",
+        "Valmiera",
+        "Ventspils"
+      ],
+      "notSafe3": [
+        "Pierīga",
+        "Pierobeža",
+        "Nezinu"
+      ],
+      "data": [
+        {
+          "feelSafe": 82,
+          "smallCrime": 88,
+          "roadSafety": 12,
+          "goodLighting": 10,
+          "greeneries": 96,
+          "viewDistance": 88
+        },
+        {
+          "feelSafe": 15,
+          "smallCrime": 16,
+          "roadSafety": 18,
+          "goodLighting": 82,
+          "greeneries": 13,
+          "viewDistance": 13
+        },
+        {
+          "feelSafe": 58,
+          "smallCrime": 39,
+          "roadSafety": 90,
+          "goodLighting": 30,
+          "greeneries": 90,
+          "viewDistance": 77
+        },
+        {
+          "feelSafe": 40,
+          "smallCrime": 44,
+          "roadSafety": 83,
+          "goodLighting": 32,
+          "greeneries": 74,
+          "viewDistance": 65
+        },
+        {
+          "feelSafe": 78,
+          "smallCrime": 65,
+          "roadSafety": 71,
+          "goodLighting": 74,
+          "greeneries": 90,
+          "viewDistance": 94
+        },
+        {
+          "feelSafe": 90,
+          "smallCrime": 87,
+          "roadSafety": 17,
+          "goodLighting": 62,
+          "greeneries": 16,
+          "viewDistance": 53
+        },
+        {
+          "feelSafe": 21,
+          "smallCrime": 19,
+          "roadSafety": 17,
+          "goodLighting": 18,
+          "greeneries": 21,
+          "viewDistance": 13
+        },
+        {
+          "feelSafe": 77,
+          "smallCrime": 69,
+          "roadSafety": 22,
+          "goodLighting": 81,
+          "greeneries": 19,
+          "viewDistance": 19
+        },
+        {
+          "feelSafe": 44,
+          "smallCrime": 37,
+          "roadSafety": 85,
+          "goodLighting": 33,
+          "greeneries": 83,
+          "viewDistance": 68
+        },
+        {
+          "feelSafe": 12,
+          "smallCrime": 52,
+          "roadSafety": 18,
+          "goodLighting": 18,
+          "greeneries": 94,
+          "viewDistance": 17
+        }
+      ],
+      "pictures": [
+        59,
+        63,
+        61,
+        74
+      ],
+      "sex": 1,
+      "age": 49,
+      "liveInRiga": 1,
+      "whereInRiga": 3,
+      "movement": {
+        "feet": 5,
+        "bicycle": 3,
+        "scooter": 1,
+        "transport": 3,
+        "personal": 5,
+        "taxi": 2
+      }
+    },
+    {
+      "id": 71938777,
+      "status": "Completed",
+      "timestamp": "4/18/22 12:47",
+      "time": 518,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Teika",
+        "Centrs",
+        "Vecrīga"
+      ],
+      "notSafe3": [
+        "Bolderāja",
+        "Grīziņkalns",
+        "Centrāltirgus"
+      ],
+      "data": [
+        {
+          "feelSafe": 62,
+          "smallCrime": 40,
+          "roadSafety": 73,
+          "goodLighting": 26,
+          "greeneries": 80,
+          "viewDistance": 66
+        },
+        {
+          "feelSafe": 24,
+          "smallCrime": 14,
+          "roadSafety": 52,
+          "goodLighting": 15,
+          "greeneries": 6,
+          "viewDistance": 11
+        },
+        {
+          "feelSafe": 74,
+          "smallCrime": 47,
+          "roadSafety": 74,
+          "goodLighting": 76,
+          "greeneries": 56,
+          "viewDistance": 24
+        },
+        {
+          "feelSafe": 42,
+          "smallCrime": 19,
+          "roadSafety": 59,
+          "goodLighting": 78,
+          "greeneries": 13,
+          "viewDistance": 52
+        },
+        {
+          "feelSafe": 64,
+          "smallCrime": 41,
+          "roadSafety": 69,
+          "goodLighting": 34,
+          "greeneries": 71,
+          "viewDistance": 38
+        },
+        {
+          "feelSafe": 72,
+          "smallCrime": 51,
+          "roadSafety": 17,
+          "goodLighting": 38,
+          "greeneries": 0,
+          "viewDistance": 6
+        },
+        {
+          "feelSafe": 79,
+          "smallCrime": 77,
+          "roadSafety": 52,
+          "goodLighting": 23,
+          "greeneries": 64,
+          "viewDistance": 51
+        },
+        {
+          "feelSafe": 41,
+          "smallCrime": 53,
+          "roadSafety": 77,
+          "goodLighting": 82,
+          "greeneries": 55,
+          "viewDistance": 82
+        },
+        {
+          "feelSafe": 10,
+          "smallCrime": 39,
+          "roadSafety": 51,
+          "goodLighting": 22,
+          "greeneries": 33,
+          "viewDistance": 20
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 0,
+          "roadSafety": 18,
+          "goodLighting": 3,
+          "greeneries": 65,
+          "viewDistance": 39
+        }
+      ],
+      "pictures": [
+        24,
+        35,
+        81,
+        36
+      ],
+      "sex": 2,
+      "age": 18,
+      "liveInRiga": 1,
+      "whereInRiga": 12,
+      "movement": {
+        "feet": 4,
+        "bicycle": 2,
+        "scooter": 5,
+        "transport": 5,
+        "personal": 2,
+        "taxi": 3
+      }
+    },
+    {
+      "id": 71939704,
+      "status": "Started",
+      "timestamp": "4/18/22 13:06",
+      "time": 90,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Āgenskalns",
+        "Klusais centrs",
+        "Vef"
+      ],
+      "notSafe3": [
+        null,
+        null,
+        null
+      ],
+      "data": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "pictures": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "movement": {}
+    },
+    {
+      "id": 71939762,
+      "status": "Completed",
+      "timestamp": "4/18/22 13:07",
+      "time": 309,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Āgenskalns",
+        "Vef",
+        "Klusais centrs"
+      ],
+      "notSafe3": [
+        "Maskačka",
+        "Imanta",
+        "Purčiks"
+      ],
+      "data": [
+        {
+          "feelSafe": 100,
+          "smallCrime": 100,
+          "roadSafety": 91,
+          "goodLighting": 100,
+          "greeneries": 100,
+          "viewDistance": 100
+        },
+        {
+          "feelSafe": 13,
+          "smallCrime": 53,
+          "roadSafety": 69,
+          "goodLighting": 73,
+          "greeneries": 52,
+          "viewDistance": 88
+        },
+        {
+          "feelSafe": 100,
+          "smallCrime": 100,
+          "roadSafety": 100,
+          "goodLighting": 100,
+          "greeneries": 100,
+          "viewDistance": 100
+        },
+        {
+          "feelSafe": 16,
+          "smallCrime": 5,
+          "roadSafety": 15,
+          "goodLighting": 53,
+          "greeneries": 53,
+          "viewDistance": 51
+        },
+        {
+          "feelSafe": 100,
+          "smallCrime": 100,
+          "roadSafety": 100,
+          "goodLighting": 100,
+          "greeneries": 77,
+          "viewDistance": 85
+        },
+        {
+          "feelSafe": 70,
+          "smallCrime": 47,
+          "roadSafety": 80,
+          "goodLighting": 100,
+          "greeneries": 51,
+          "viewDistance": 82
+        },
+        {
+          "feelSafe": 93,
+          "smallCrime": 92,
+          "roadSafety": 100,
+          "goodLighting": 100,
+          "greeneries": 78,
+          "viewDistance": 75
+        },
+        {
+          "feelSafe": 100,
+          "smallCrime": 100,
+          "roadSafety": 100,
+          "goodLighting": 100,
+          "greeneries": 68,
+          "viewDistance": 100
+        },
+        {
+          "feelSafe": 0,
+          "smallCrime": 22,
+          "roadSafety": 17,
+          "goodLighting": 25,
+          "greeneries": 23,
+          "viewDistance": 53
+        },
+        {
+          "feelSafe": 18,
+          "smallCrime": 50,
+          "roadSafety": 36,
+          "goodLighting": 74,
+          "greeneries": 73,
+          "viewDistance": 69
+        }
+      ],
+      "pictures": [
+        0,
+        100,
+        100,
+        0
+      ],
+      "sex": 1,
+      "age": 22,
+      "liveInRiga": 1,
+      "whereInRiga": 3,
+      "movement": {
+        "feet": 5,
+        "bicycle": 5,
+        "scooter": 1,
+        "transport": 5,
+        "personal": 1,
+        "taxi": 2
+      }
+    },
+    {
+      "id": 71941779,
+      "status": "Started",
+      "timestamp": "4/18/22 13:46",
+      "time": 8,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        null,
+        null,
+        null
+      ],
+      "notSafe3": [
+        null,
+        null,
+        null
+      ],
+      "data": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "pictures": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "movement": {}
+    }
+  ]
+}

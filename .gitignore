@@ -1,0 +1,11 @@
+.vscode/
+node_modules
+
+/coverage
+/reports
+
+/build
+
+/src/config/*_old.json
+
+.env

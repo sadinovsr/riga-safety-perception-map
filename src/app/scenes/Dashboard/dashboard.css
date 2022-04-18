@@ -1,0 +1,9 @@
+th[rowspan] {
+  vertical-align: middle;
+  text-align: left;
+}
+
+th[colspan] {
+  vertical-align: middle;
+  text-align: center;
+}
