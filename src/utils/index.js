@@ -1,4 +1,4 @@
-import { isEmpty } from "lodash";
+import { isEmpty } from 'lodash';
 
 // get color hue by value (0 = red, 100 = green, <0 = black)
 export const getColor = (value, lightness) => {
@@ -11,4 +11,4 @@ export const getColor = (value, lightness) => {
 export const average = (array) => {
   if (isEmpty(array)) return -1;
   return array.reduce((a, b) => a + b) / array.length;
-}
+};

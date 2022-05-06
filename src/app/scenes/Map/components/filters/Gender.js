@@ -1,11 +1,11 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { Row, Col, FormGroup, Input, Label } from 'reactstrap';
 
 class Gender extends Component {
   countGenderResponses = (gender) => {
     const { unfilteredData } = this.props;
     return unfilteredData.responses.filter((item) => item.sex === gender).length;
-  }
+  };
 
   render() {
     const { toggleGender, selectedGender } = this.props;
@@ -23,9 +23,7 @@ class Gender extends Component {
               checked={selectedGender.female}
               onChange={() => toggleGender('female')}
             />
-            <Label>
-              {`Sieviete (${this.countGenderResponses(1)})`}
-            </Label>
+            <Label>{`Sieviete (${this.countGenderResponses(1)})`}</Label>
           </div>
           <div>
             <Input
@@ -35,9 +33,7 @@ class Gender extends Component {
               checked={selectedGender.male}
               onChange={() => toggleGender('male')}
             />
-            <Label>
-              {`Vīrietis (${this.countGenderResponses(2)})`}
-            </Label>
+            <Label>{`Vīrietis (${this.countGenderResponses(2)})`}</Label>
           </div>
           <div>
             <Input
@@ -47,13 +43,11 @@ class Gender extends Component {
               checked={selectedGender.other}
               onChange={() => toggleGender('other')}
             />
-            <Label>
-              {`Cits (${this.countGenderResponses(3)})`}
-            </Label>
+            <Label>{`Cits (${this.countGenderResponses(3)})`}</Label>
           </div>
         </FormGroup>
       </Row>
-    )
+    );
   }
 }
 

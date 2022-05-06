@@ -3,7 +3,7 @@ import { get, isEmpty, round } from 'lodash';
 import React, { Component, Fragment } from 'react';
 import { GoogleMap, Polygon } from 'react-google-maps';
 import InfoBox from 'react-google-maps/lib/components/addons/InfoBox';
-import HeatmapLayer from "react-google-maps/lib/components/visualization/HeatmapLayer";
+import HeatmapLayer from 'react-google-maps/lib/components/visualization/HeatmapLayer';
 import heatmapData from '~/config/heatmapData.json';
 import mapStyle from '~/config/mapStyle';
 import regions from '~/config/regions';
@@ -36,16 +36,16 @@ class MapComponent extends Component {
 
   renderRegions = () => {
     const { data } = this.props;
-    return regions.map(
-      (region, idx) => {
-        const avg = average(data.responses.map((item) => item.data[idx][this.props.selectedFilter]));
-        return !isEmpty(region.path) && (
+    return regions.map((region, idx) => {
+      const avg = average(data.responses.map((item) => item.data[idx][this.props.selectedFilter]));
+      return (
+        !isEmpty(region.path) && (
           <Fragment key={region.id}>
             <Polygon
               path={region.path}
               options={{
                 strokeWeight: 1,
-                fillColor: getColor(avg / 100, 50)
+                fillColor: getColor(avg / 100, 50),
               }}
               onClick={() => this.openModal(region.id)}
               onMouseOver={() => this.openModal(region.id)}
@@ -55,7 +55,7 @@ class MapComponent extends Component {
               <InfoBox defaultPosition={region.centerPos} options={{ closeBoxURL: '' }}>
                 <div style={{ color: 'white' }}>
                   <h3>{region.displayName}</h3>
-                  <div style={{fontSize: '1rem'}}>
+                  <div style={{ fontSize: '1rem' }}>
                     {`${data.header.data[this.props.selectedFilter]}`}
                     <br />
                     {`Vidēji: ${avg === -1 ? '-' : round(avg, 2)}`}
@@ -64,9 +64,9 @@ class MapComponent extends Component {
               </InfoBox>
             )}
           </Fragment>
-        );
-      }
-    );
+        )
+      );
+    });
   };
 
   render() {
@@ -78,7 +78,8 @@ class MapComponent extends Component {
         if (heatmapGreen && !heatmapRegular) return item.style === 'green';
         return false;
       })
-      .map((item) => new google.maps.LatLng(item.position.lat, item.position.lng))
+      // eslint-disable-next-line no-undef
+      .map((item) => new google.maps.LatLng(item.position.lat, item.position.lng));
 
     return (
       <GoogleMap

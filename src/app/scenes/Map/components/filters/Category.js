@@ -20,7 +20,7 @@ class Category extends Component {
   };
 
   render() {
-    const { unfilteredData, toggleFilter, selectedFilter } = this.props;
+    const { unfilteredData } = this.props;
     const generatedButtons = Object.keys(unfilteredData.header.data).map((key, index) => {
       return index !== 0 && this.renderButton(unfilteredData.header.data[key], key);
     });
