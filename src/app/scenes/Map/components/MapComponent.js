@@ -1,10 +1,12 @@
+import { getColor, average } from '~/utils';
+import { get, isEmpty, round } from 'lodash';
 import React, { Component, Fragment } from 'react';
 import { GoogleMap, Polygon } from 'react-google-maps';
 import InfoBox from 'react-google-maps/lib/components/addons/InfoBox';
-import regions from '~/config/regions';
-import { get, isEmpty, round } from 'lodash';
+import HeatmapLayer from "react-google-maps/lib/components/visualization/HeatmapLayer";
+import heatmapData from '~/config/heatmapData.json';
 import mapStyle from '~/config/mapStyle';
-import { getColor, average } from '~/utils';
+import regions from '~/config/regions';
 
 class MapComponent extends Component {
   state = {
@@ -68,6 +70,16 @@ class MapComponent extends Component {
   };
 
   render() {
+    const { showHeatMap, heatmapGreen, heatmapRegular } = this.props;
+    const heatMapData = heatmapData.result
+      .filter((item) => {
+        if (heatmapGreen && heatmapRegular) return true;
+        if (!heatmapGreen && heatmapRegular) return item.style === 'regular';
+        if (heatmapGreen && !heatmapRegular) return item.style === 'green';
+        return false;
+      })
+      .map((item) => new google.maps.LatLng(item.position.lat, item.position.lng))
+    console.log('rerender')
     return (
       <GoogleMap
         defaultZoom={12}
@@ -75,6 +87,23 @@ class MapComponent extends Component {
         defaultOptions={{ styles: mapStyle }}
       >
         {this.renderRegions()}
+        {showHeatMap && (
+          <HeatmapLayer
+            data={heatMapData}
+            options={{
+              radius: 0.001,
+              opacity: 0.5,
+              dissipating: false,
+              maxIntensity: 200,
+            }}
+            // options={{
+            //   radius: 0.001,
+            //   opacity: 0.5,
+            //   dissipating: false,
+            //   maxIntensity: 150,
+            // }}
+          />
+        )}
       </GoogleMap>
     );
   }

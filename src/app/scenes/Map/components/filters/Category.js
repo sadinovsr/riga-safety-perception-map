@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import { Row, Col, ButtonGroup, Button } from 'reactstrap';
+import React, { Component } from 'react';
+import { Row, Col, Button } from 'reactstrap';
 
 class Category extends Component {
   renderButton = (title, field) => {
