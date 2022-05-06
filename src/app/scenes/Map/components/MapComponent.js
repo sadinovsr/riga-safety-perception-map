@@ -79,7 +79,7 @@ class MapComponent extends Component {
         return false;
       })
       .map((item) => new google.maps.LatLng(item.position.lat, item.position.lng))
-    console.log('rerender')
+
     return (
       <GoogleMap
         defaultZoom={12}
