@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Button } from 'reactstrap';
 
 class Category extends Component {
+  // Renders button for each of the categories to toggle them
   renderButton = (title, field) => {
     const { selectedFilter, toggleFilter } = this.props;
     return (

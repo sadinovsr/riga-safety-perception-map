@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Row, Col, Input, InputGroup, InputGroupText } from 'reactstrap';
 
 class Age extends Component {
+  // Checks the age range from the responses
   minMaxAge = () => {
     const { unfilteredData } = this.props;
     const ages = unfilteredData.responses.map((item) => item.age);
