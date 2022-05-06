@@ -1,0 +1,6 @@
+build/*
+config/*
+public/*
+node_modules/*
+package.json
+*.config.js

@@ -34,16 +34,16 @@ class MapComponent extends Component {
 
   renderRegions = () => {
     const { data } = this.props;
-    return regions.map(
-      (region, idx) => {
-        const avg = average(data.responses.map((item) => item.data[idx][this.props.selectedFilter]));
-        return !isEmpty(region.path) && (
+    return regions.map((region, idx) => {
+      const avg = average(data.responses.map((item) => item.data[idx][this.props.selectedFilter]));
+      return (
+        !isEmpty(region.path) && (
           <Fragment key={region.id}>
             <Polygon
               path={region.path}
               options={{
                 strokeWeight: 1,
-                fillColor: getColor(avg / 100, 50)
+                fillColor: getColor(avg / 100, 50),
               }}
               onClick={() => this.openModal(region.id)}
               onMouseOver={() => this.openModal(region.id)}
@@ -53,7 +53,7 @@ class MapComponent extends Component {
               <InfoBox defaultPosition={region.centerPos} options={{ closeBoxURL: '' }}>
                 <div style={{ color: 'white' }}>
                   <h3>{region.displayName}</h3>
-                  <div style={{fontSize: '1rem'}}>
+                  <div style={{ fontSize: '1rem' }}>
                     {`${data.header.data[this.props.selectedFilter]}`}
                     <br />
                     {`Vidēji: ${avg === -1 ? '-' : round(avg, 2)}`}
@@ -62,9 +62,9 @@ class MapComponent extends Component {
               </InfoBox>
             )}
           </Fragment>
-        );
-      }
-    );
+        )
+      );
+    });
   };
 
   render() {

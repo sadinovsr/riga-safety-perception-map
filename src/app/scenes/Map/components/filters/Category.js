@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import { Row, Col, ButtonGroup, Button } from 'reactstrap';
+import React, { Component } from 'react';
+import { Row, Col, Button } from 'reactstrap';
 
 class Category extends Component {
   renderButton = (title, field) => {
@@ -20,7 +20,7 @@ class Category extends Component {
   };
 
   render() {
-    const { unfilteredData, toggleFilter, selectedFilter } = this.props;
+    const { unfilteredData } = this.props;
     const generatedButtons = Object.keys(unfilteredData.header.data).map((key, index) => {
       return index !== 0 && this.renderButton(unfilteredData.header.data[key], key);
     });
