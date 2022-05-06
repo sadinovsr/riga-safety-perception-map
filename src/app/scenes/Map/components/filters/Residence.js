@@ -3,12 +3,14 @@ import { Row, Col, FormGroup, Input, Label } from 'reactstrap';
 import Select from 'react-select';
 
 class Residence extends Component {
+  // Counts respondents for region type
   countByInsideOutside = (type) => {
     const { unfilteredData } = this.props;
     const compare = type === 'inside' ? 1 : 2;
     return unfilteredData.responses.filter((item) => item.liveInRiga === compare).length;
   };
 
+  // Counts respondents for each region's subregion
   countByInsideOutsideRegion = (type, value) => {
     const { unfilteredData } = this.props;
     const key = type === 'inside' ? 'whereInRiga' : 'whereOutRiga';

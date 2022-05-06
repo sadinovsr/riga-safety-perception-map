@@ -34,6 +34,7 @@ class MapComponent extends Component {
     });
   };
 
+  // Render everything for each region in the survey
   renderRegions = () => {
     const { data } = this.props;
     return regions.map((region, idx) => {

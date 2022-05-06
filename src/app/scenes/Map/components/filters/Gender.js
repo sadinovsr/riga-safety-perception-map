@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, FormGroup, Input, Label } from 'reactstrap';
 
 class Gender extends Component {
+  // Gathers how many respondents of each gender there are
   countGenderResponses = (gender) => {
     const { unfilteredData } = this.props;
     return unfilteredData.responses.filter((item) => item.sex === gender).length;
