@@ -2,7 +2,6 @@ import React from 'react';
 import { Row, Col, Button } from 'reactstrap';
 
 const HeatMapToggles = ({ toggleOrSetState, showHeatMap, heatmapGreen, heatmapRegular }) => {
-
   return (
     <Row>
       <Col xs="12" className="whiteText">
@@ -36,7 +35,7 @@ const HeatMapToggles = ({ toggleOrSetState, showHeatMap, heatmapGreen, heatmapRe
         Drošības
       </Button>
     </Row>
-  )
-}
+  );
+};
 
 export default HeatMapToggles;
