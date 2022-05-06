@@ -6,13 +6,16 @@ import FilterMenu from './components/FilterMenu';
 import { BsSliders } from "react-icons/bs";
 import data from '~/config/responses.json';
 import './map.css';
-import { isEmpty } from 'lodash';
+import { isEmpty, isNil } from 'lodash';
 
 const WrappedMap = withScriptjs(withGoogleMap((props) => <MapComponent {...props} />));
 
 class Map extends Component {
   state = {
+    showHeatMap: false,
     isFilterOpen: false,
+    heatmapGreen: true,
+    heatmapRegular: true,
     selectedFilter: 'feelSafe',
     selectedGender: {
       male: true,
@@ -29,6 +32,12 @@ class Map extends Component {
       insideRegions: [],
       outsideRegions: [],
     }
+  };
+
+  toggleOrSetState = (field, value = null) => {
+    this.setState((state) => ({
+      [field]: !isNil(value) ? value : !state[field],
+    }));
   };
 
   toggleFilter = (filter) => {
@@ -141,7 +150,17 @@ class Map extends Component {
   }
 
   render() {
-    const { selectedFilter, isFilterOpen, selectedGender, selectedAges, selectedResidence } = this.state;
+    const {
+      showHeatMap,
+      isFilterOpen,
+      selectedAges,
+      heatmapGreen,
+      heatmapRegular,
+      selectedGender,
+      selectedFilter,
+      selectedResidence,
+    } = this.state;
+
     const filteredData = {
       ...data,
       responses: this.dataResponsesFilter() || [],
@@ -151,13 +170,16 @@ class Map extends Component {
         <Col xs="12" style={{ padding: 0 }}>
           <WrappedMap
             googleMapURL={
-              'https://maps.googleapis.com/maps/api/js?key=&v=3.exp&libraries=geometry,drawing,places'
+              'https://maps.googleapis.com/maps/api/js?key=&v=3.exp&libraries=geometry,drawing,places,visualization'
             }
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={<div style={{ height: `100%` }} />}
             mapElement={<div style={{ height: `100%` }} />}
-            selectedFilter={selectedFilter}
             data={filteredData}
+            showHeatMap={showHeatMap}
+            heatmapGreen={heatmapGreen}
+            heatmapRegular={heatmapRegular}
+            selectedFilter={selectedFilter}
           />
         </Col>
         <Button className="filterButton" outline color="light" size="md" onClick={() => this.toggleFilterDashboard()}>
@@ -179,14 +201,18 @@ class Map extends Component {
                 ...data,
                 responses: data.responses.filter((response) => response.status === "Completed"),
               }}
-              toggleFilter={this.toggleFilter}
+              showHeatMap={showHeatMap}
+              selectedAges={selectedAges}
+              heatmapGreen={heatmapGreen}
+              heatmapRegular={heatmapRegular}
               selectedFilter={selectedFilter}
               selectedGender={selectedGender}
-              selectedAges={selectedAges}
-              toggleGender={this.toggleGender}
-              toggleAge={this.toggleAge}
-              toggleResidence={this.toggleResidence}
               selectedResidence={selectedResidence}
+              toggleAge={this.toggleAge}
+              toggleGender={this.toggleGender}
+              toggleFilter={this.toggleFilter}
+              toggleResidence={this.toggleResidence}
+              toggleOrSetState={this.toggleOrSetState}
             />
           </OffcanvasBody>
         </Offcanvas>
