@@ -5,14 +5,17 @@ import MapComponent from './components/MapComponent';
 import FilterMenu from './components/FilterMenu';
 import { BsSliders } from 'react-icons/bs';
 import data from '~/config/responses.json';
-import { isEmpty } from 'lodash';
+import { isEmpty, isNil } from 'lodash';
 import './map.css';
 
 const WrappedMap = withScriptjs(withGoogleMap((props) => <MapComponent {...props} />));
 
 class Map extends Component {
   state = {
+    showHeatMap: false,
     isFilterOpen: false,
+    heatmapGreen: true,
+    heatmapRegular: true,
     selectedFilter: 'feelSafe',
     selectedGender: {
       male: true,
@@ -29,6 +32,12 @@ class Map extends Component {
       insideRegions: [],
       outsideRegions: [],
     },
+  };
+
+  toggleOrSetState = (field, value = null) => {
+    this.setState((state) => ({
+      [field]: !isNil(value) ? value : !state[field],
+    }));
   };
 
   toggleFilter = (filter) => {
@@ -145,7 +154,17 @@ class Map extends Component {
   };
 
   render() {
-    const { selectedFilter, isFilterOpen, selectedGender, selectedAges, selectedResidence } = this.state;
+    const {
+      showHeatMap,
+      isFilterOpen,
+      selectedAges,
+      heatmapGreen,
+      heatmapRegular,
+      selectedGender,
+      selectedFilter,
+      selectedResidence,
+    } = this.state;
+
     const filteredData = {
       ...data,
       responses: this.dataResponsesFilter() || [],
@@ -160,8 +179,11 @@ class Map extends Component {
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={<div style={{ height: `100%` }} />}
             mapElement={<div style={{ height: `100%` }} />}
-            selectedFilter={selectedFilter}
             data={filteredData}
+            showHeatMap={showHeatMap}
+            heatmapGreen={heatmapGreen}
+            heatmapRegular={heatmapRegular}
+            selectedFilter={selectedFilter}
           />
         </Col>
         <Button className="filterButton" outline color="light" size="md" onClick={() => this.toggleFilterDashboard()}>
@@ -178,14 +200,18 @@ class Map extends Component {
                 ...data,
                 responses: data.responses.filter((response) => response.status === 'Completed'),
               }}
-              toggleFilter={this.toggleFilter}
+              showHeatMap={showHeatMap}
+              selectedAges={selectedAges}
+              heatmapGreen={heatmapGreen}
+              heatmapRegular={heatmapRegular}
               selectedFilter={selectedFilter}
               selectedGender={selectedGender}
-              selectedAges={selectedAges}
-              toggleGender={this.toggleGender}
-              toggleAge={this.toggleAge}
-              toggleResidence={this.toggleResidence}
               selectedResidence={selectedResidence}
+              toggleAge={this.toggleAge}
+              toggleGender={this.toggleGender}
+              toggleFilter={this.toggleFilter}
+              toggleResidence={this.toggleResidence}
+              toggleOrSetState={this.toggleOrSetState}
             />
           </OffcanvasBody>
         </Offcanvas>
