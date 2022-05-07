@@ -5,6 +5,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     filename: "bundled.js",
+    publicPath: "/",
     path: path.resolve(__dirname, "build"),
   },
   plugins: [
