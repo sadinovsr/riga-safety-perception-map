@@ -190,7 +190,11 @@ class Map extends Component {
           <BsSliders />
         </Button>
         <Offcanvas isOpen={isFilterOpen} direction="top" backdrop={false} toggle={this.toggleFilterDashboard}>
-          <OffcanvasHeader style={{ backgroundColor: '#373737', color: 'white' }} toggle={this.toggleFilterDashboard}>
+          <OffcanvasHeader
+            tag="div"
+            style={{ backgroundColor: '#373737', color: 'white' }}
+            toggle={this.toggleFilterDashboard}
+          >
             <h3>Filtri</h3>
             <h6>{`Izvēlētās izlases kopas izmērs: ${filteredData.responses.length}`}</h6>
           </OffcanvasHeader>
