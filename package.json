@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://sadinovsr.github.io/riga-safety-perception-map/",
   "scripts": {
     "start": "webpack serve  --hot --open --mode development",
     "build": "webpack --config webpack.config.js --mode production",
