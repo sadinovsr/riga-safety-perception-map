@@ -334,43 +334,6 @@
       }
     },
     {
-      "id": 71006308,
-      "status": "Started",
-      "timestamp": "4/9/22 16:06",
-      "time": 10,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
       "id": 71006351,
       "status": "Completed",
       "timestamp": "4/9/22 16:06",
@@ -605,43 +568,6 @@
         "personal": 5,
         "taxi": 3
       }
-    },
-    {
-      "id": 71017502,
-      "status": "Started",
-      "timestamp": "4/9/22 18:21",
-      "time": 6,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
     },
     {
       "id": 71018225,
@@ -1350,43 +1276,6 @@
         "personal": 5,
         "taxi": 1
       }
-    },
-    {
-      "id": 71087834,
-      "status": "Started",
-      "timestamp": "4/10/22 14:19",
-      "time": 3,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
     },
     {
       "id": 71109482,
@@ -2451,43 +2340,6 @@
       }
     },
     {
-      "id": 71939704,
-      "status": "Started",
-      "timestamp": "4/18/22 13:06",
-      "time": 90,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Āgenskalns",
-        "Klusais centrs",
-        "Vef"
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
       "id": 71939762,
       "status": "Completed",
       "timestamp": "4/18/22 13:07",
@@ -2606,138 +2458,6 @@
       }
     },
     {
-      "id": 71941779,
-      "status": "Started",
-      "timestamp": "4/18/22 13:46",
-      "time": 8,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
-      "id": 71942006,
-      "status": "Started",
-      "timestamp": "4/18/22 13:50",
-      "time": 20,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Rīga",
-        "Dobele",
-        "Liepāja"
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
-      "id": 71942031,
-      "status": "Started",
-      "timestamp": "4/18/22 13:50",
-      "time": 101,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Šampēteris ",
-        "Mežaparks ",
-        "Imanta"
-      ],
-      "notSafe3": [
-        "Sarkandaugava",
-        "Maskavas ielas rajons",
-        "Nav"
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-          "feelSafe": 81,
-          "smallCrime": 83,
-          "roadSafety": 85,
-          "goodLighting": 83,
-          "greeneries": 77,
-          "viewDistance": 31
-        },
-        {},
-        {},
-        {
-          "feelSafe": 0,
-          "smallCrime": 0,
-          "roadSafety": 49,
-          "goodLighting": 69,
-          "greeneries": 45,
-          "viewDistance": 41
-        },
-        {
-          "feelSafe": 43,
-          "smallCrime": 31,
-          "roadSafety": 31,
-          "goodLighting": 21,
-          "greeneries": 34,
-          "viewDistance": 17
-        }
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
       "id": 71944321,
       "status": "Completed",
       "timestamp": "4/18/22 14:27",
@@ -2854,43 +2574,6 @@
         "personal": 4,
         "taxi": 1
       }
-    },
-    {
-      "id": 71976253,
-      "status": "Started",
-      "timestamp": "4/18/22 18:10",
-      "time": 14,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
     },
     {
       "id": 72008262,
@@ -3247,80 +2930,6 @@
       }
     },
     {
-      "id": 72053620,
-      "status": "Started",
-      "timestamp": "4/19/22 8:59",
-      "time": 397,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Ventspils",
-        "Kuldīga",
-        "Talsi"
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
-      "id": 72053682,
-      "status": "Started",
-      "timestamp": "4/19/22 9:02",
-      "time": 66,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Centra rajons",
-        "Imanta",
-        "Jugla"
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
       "id": 72053810,
       "status": "Completed",
       "timestamp": "4/19/22 9:08",
@@ -3675,80 +3284,6 @@
       }
     },
     {
-      "id": 72062641,
-      "status": "Started",
-      "timestamp": "4/19/22 13:24",
-      "time": 0,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
-      "id": 72062651,
-      "status": "Started",
-      "timestamp": "4/19/22 13:24",
-      "time": 275,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Mežparks, Rīga",
-        "Kuldīga",
-        "Ventspils"
-      ],
-      "notSafe3": [
-        "Maskavas iela, Rīga",
-        "Pārventa, Ventspils",
-        "Brasas rajons"
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
       "id": 72066066,
       "status": "Completed",
       "timestamp": "4/19/22 14:14",
@@ -3865,43 +3400,6 @@
         "personal": 4,
         "taxi": 2
       }
-    },
-    {
-      "id": 72068564,
-      "status": "Started",
-      "timestamp": "4/19/22 14:47",
-      "time": 0,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
     },
     {
       "id": 72073988,
@@ -4612,80 +4110,6 @@
       }
     },
     {
-      "id": 72183749,
-      "status": "Started",
-      "timestamp": "4/20/22 14:11",
-      "time": 6,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
-      "id": 72237068,
-      "status": "Started",
-      "timestamp": "4/20/22 21:48",
-      "time": 5,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
       "id": 72238400,
       "status": "Completed",
       "timestamp": "4/20/22 22:01",
@@ -5158,85 +4582,6 @@
       }
     },
     {
-      "id": 72243941,
-      "status": "Started",
-      "timestamp": "4/20/22 22:53",
-      "time": 280,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Vecrīga",
-        "Mežaparks",
-        "Centra rajons"
-      ],
-      "notSafe3": [
-        "Maskavas forštrate",
-        "Imanta",
-        "Pļavnieki"
-      ],
-      "data": [
-        {},
-        {
-          "feelSafe": 29,
-          "smallCrime": 4,
-          "roadSafety": 30,
-          "goodLighting": 40,
-          "greeneries": 29,
-          "viewDistance": 33
-        },
-        {
-          "feelSafe": 81,
-          "smallCrime": 69,
-          "roadSafety": 84,
-          "goodLighting": 67,
-          "greeneries": 87,
-          "viewDistance": 72
-        },
-        {
-          "feelSafe": 20,
-          "smallCrime": 49,
-          "roadSafety": 62,
-          "goodLighting": 35,
-          "greeneries": 70,
-          "viewDistance": 23
-        },
-        {
-          "feelSafe": 30,
-          "smallCrime": 51,
-          "roadSafety": 84,
-          "goodLighting": 67,
-          "greeneries": 70,
-          "viewDistance": 47
-        },
-        {
-          "feelSafe": 87,
-          "smallCrime": 66,
-          "roadSafety": 86,
-          "goodLighting": 86,
-          "greeneries": 34,
-          "viewDistance": 22
-        },
-        {},
-        {},
-        {},
-        {
-          "feelSafe": 32,
-          "smallCrime": 16,
-          "roadSafety": 47,
-          "goodLighting": 17,
-          "greeneries": 68,
-          "viewDistance": 53
-        }
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
       "id": 72283812,
       "status": "Completed",
       "timestamp": "4/21/22 9:06",
@@ -5471,43 +4816,6 @@
         "personal": 3,
         "taxi": 2
       }
-    },
-    {
-      "id": 72310575,
-      "status": "Started",
-      "timestamp": "4/21/22 16:38",
-      "time": 72,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Riga",
-        "Zilupe(majas)",
-        "Latgale(tuvu majam)"
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
     },
     {
       "id": 72310809,
@@ -5864,108 +5172,6 @@
       }
     },
     {
-      "id": 72497847,
-      "status": "Started",
-      "timestamp": "4/23/22 8:03",
-      "time": 259,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Botāniskā dārza apkārtne ",
-        "Mežaparks ",
-        "Centrs"
-      ],
-      "notSafe3": [
-        "Purvciems ",
-        "Pļavnieki ",
-        "Sarkandaugava "
-      ],
-      "data": [
-        {},
-        {
-          "feelSafe": 0,
-          "smallCrime": 0,
-          "roadSafety": 74,
-          "goodLighting": 17,
-          "greeneries": 0,
-          "viewDistance": 100
-        },
-        {
-          "feelSafe": 100,
-          "smallCrime": 30,
-          "roadSafety": 85,
-          "goodLighting": 30,
-          "greeneries": 100,
-          "viewDistance": 100
-        },
-        {},
-        {},
-        {},
-        {
-          "feelSafe": 0,
-          "smallCrime": 0,
-          "roadSafety": 14,
-          "goodLighting": 20,
-          "greeneries": 34,
-          "viewDistance": 86
-        },
-        {},
-        {
-          "feelSafe": 0,
-          "smallCrime": 0,
-          "roadSafety": 19,
-          "goodLighting": 20,
-          "greeneries": 21,
-          "viewDistance": 3
-        },
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
-      "id": 72498129,
-      "status": "Started",
-      "timestamp": "4/23/22 8:10",
-      "time": 0,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
       "id": 72505937,
       "status": "Completed",
       "timestamp": "4/23/22 12:28",
@@ -6202,71 +5408,6 @@
       }
     },
     {
-      "id": 72626799,
-      "status": "Started",
-      "timestamp": "4/24/22 20:39",
-      "time": 89,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Rīga",
-        "Salaspils",
-        "Ogre"
-      ],
-      "notSafe3": [
-        "",
-        "",
-        ""
-      ],
-      "data": [
-        {
-          "feelSafe": 100,
-          "smallCrime": 100,
-          "roadSafety": 100,
-          "goodLighting": 100,
-          "greeneries": 100,
-          "viewDistance": 100
-        },
-        {},
-        {},
-        {
-          "feelSafe": 100,
-          "smallCrime": 100,
-          "roadSafety": 100,
-          "goodLighting": 100,
-          "greeneries": 100,
-          "viewDistance": 100
-        },
-        {},
-        {},
-        {
-          "feelSafe": 100,
-          "smallCrime": 100,
-          "roadSafety": 100,
-          "goodLighting": 100,
-          "greeneries": 100,
-          "viewDistance": 100
-        },
-        {},
-        {},
-        {
-          "feelSafe": 100,
-          "smallCrime": 100,
-          "roadSafety": 100,
-          "goodLighting": 100,
-          "greeneries": 100,
-          "viewDistance": 100
-        }
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
       "id": 72723294,
       "status": "Completed",
       "timestamp": "4/25/22 10:09",
@@ -6383,43 +5524,6 @@
         "personal": 2,
         "taxi": 2
       }
-    },
-    {
-      "id": 73009988,
-      "status": "Started",
-      "timestamp": "4/26/22 20:52",
-      "time": 13,
-      "country": "LV",
-      "region": "050",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
     },
     {
       "id": 73227700,
@@ -6776,80 +5880,6 @@
       }
     },
     {
-      "id": 73344474,
-      "status": "Started",
-      "timestamp": "4/29/22 2:08",
-      "time": 5,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
-      "id": 73538242,
-      "status": "Started",
-      "timestamp": "4/30/22 13:34",
-      "time": 7,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
       "id": 73538296,
       "status": "Completed",
       "timestamp": "4/30/22 13:35",
@@ -6968,43 +5998,6 @@
       }
     },
     {
-      "id": 73538303,
-      "status": "Started",
-      "timestamp": "4/30/22 13:35",
-      "time": 79,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Centrs",
-        "Berģi",
-        "Klusais centrs"
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
       "id": 73538313,
       "status": "Completed",
       "timestamp": "4/30/22 13:36",
@@ -7121,43 +6114,6 @@
         "personal": 1,
         "taxi": 2
       }
-    },
-    {
-      "id": 73538335,
-      "status": "Started",
-      "timestamp": "4/30/22 13:37",
-      "time": 196,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Centrs",
-        "Jaunā Teika",
-        "Promināde"
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
     },
     {
       "id": 73538956,
@@ -7514,43 +6470,6 @@
       }
     },
     {
-      "id": 73544518,
-      "status": "Started",
-      "timestamp": "4/30/22 13:59",
-      "time": 30,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        null,
-        null,
-        null
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
-    },
-    {
       "id": 73544566,
       "status": "Completed",
       "timestamp": "4/30/22 14:00",
@@ -7667,43 +6586,6 @@
         "personal": 1,
         "taxi": 1
       }
-    },
-    {
-      "id": 73548031,
-      "status": "Started",
-      "timestamp": "4/30/22 15:29",
-      "time": 59,
-      "country": "LV",
-      "region": "RIX",
-      "safe3": [
-        "Centrs",
-        "Jaunā Teika",
-        "Mežparks "
-      ],
-      "notSafe3": [
-        null,
-        null,
-        null
-      ],
-      "data": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "pictures": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "movement": {}
     },
     {
       "id": 73556146,
@@ -8410,6 +7292,124 @@
         "scooter": 2,
         "transport": 5,
         "personal": 4,
+        "taxi": 3
+      }
+    },
+    {
+      "id": 74975581,
+      "status": "Completed",
+      "timestamp": "5/13/22 19:05",
+      "time": 399,
+      "country": "LV",
+      "region": "RIX",
+      "safe3": [
+        "Mežciems",
+        "Klusais centrs",
+        "Teika"
+      ],
+      "notSafe3": [
+        "Maskavas forštate",
+        "Vecrīga",
+        "Centrālās stacijas rajons"
+      ],
+      "data": [
+        {
+          "feelSafe": 92,
+          "smallCrime": 100,
+          "roadSafety": 100,
+          "goodLighting": 73,
+          "greeneries": 100,
+          "viewDistance": 91
+        },
+        {
+          "feelSafe": 5,
+          "smallCrime": 34,
+          "roadSafety": 44,
+          "goodLighting": 60,
+          "greeneries": 23,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 57,
+          "smallCrime": 74,
+          "roadSafety": 61,
+          "goodLighting": 39,
+          "greeneries": 58,
+          "viewDistance": 41
+        },
+        {
+          "feelSafe": 50,
+          "smallCrime": 66,
+          "roadSafety": 78,
+          "goodLighting": 50,
+          "greeneries": 84,
+          "viewDistance": 41
+        },
+        {
+          "feelSafe": 90,
+          "smallCrime": 93,
+          "roadSafety": 76,
+          "goodLighting": 54,
+          "greeneries": 75,
+          "viewDistance": 72
+        },
+        {
+          "feelSafe": 44,
+          "smallCrime": 78,
+          "roadSafety": 73,
+          "goodLighting": 73,
+          "greeneries": 19,
+          "viewDistance": 40
+        },
+        {
+          "feelSafe": 61,
+          "smallCrime": 72,
+          "roadSafety": 50,
+          "goodLighting": 40,
+          "greeneries": 50,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 100,
+          "smallCrime": 100,
+          "roadSafety": 100,
+          "goodLighting": 100,
+          "greeneries": 50,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 24,
+          "smallCrime": 39,
+          "roadSafety": 37,
+          "goodLighting": 36,
+          "greeneries": 59,
+          "viewDistance": 50
+        },
+        {
+          "feelSafe": 38,
+          "smallCrime": 50,
+          "roadSafety": 50,
+          "goodLighting": 34,
+          "greeneries": 87,
+          "viewDistance": 50
+        }
+      ],
+      "pictures": [
+        56,
+        70,
+        86,
+        58
+      ],
+      "sex": 2,
+      "age": 22,
+      "liveInRiga": 1,
+      "whereInRiga": 32,
+      "movement": {
+        "feet": 5,
+        "bicycle": 2,
+        "scooter": 2,
+        "transport": 5,
+        "personal": 1,
         "taxi": 3
       }
     }
