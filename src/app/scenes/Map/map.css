@@ -8,6 +8,17 @@
   padding-right: 1.5rem;
 }
 
+.versionText {
+  width: 70px;
+  height: 60px;
+  /* margin: 10px; */
+  /* margin-top: 18px; */
+  margin-top: 1rem;
+  position: absolute;
+  top: 0;
+  right: 7rem;
+}
+
 .whiteText {
   color: white;
 }
