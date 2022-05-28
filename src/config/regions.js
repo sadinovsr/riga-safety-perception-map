@@ -2,6 +2,7 @@ const regions = [
   {
     id: 'mezaparks',
     displayName: 'Mežaparks',
+    population: 3955,
     centerPos: {
       lat: 57.00637845985205,
       lng: 24.145955224834776,
@@ -52,6 +53,7 @@ const regions = [
   {
     id: 'centraltirgus',
     displayName: 'Centrāltirgus/Centrālā Stacija',
+    population: -1,
     centerPos: {
       lat: 56.944562983527035,
       lng: 24.11562284081467,
@@ -86,6 +88,7 @@ const regions = [
   {
     id: 'agenskalns',
     displayName: 'Āgenskalns',
+    population: 23800,
     centerPos: {
       lat: 56.94208118562865,
       lng: 24.073465088827483,
@@ -128,6 +131,7 @@ const regions = [
   {
     id: 'purvciems',
     displayName: 'Purvciems',
+    population: 53855,
     centerPos: {
       lat: 56.95722421453148,
       lng: 24.181854951391262,
@@ -174,6 +178,7 @@ const regions = [
   {
     id: 'jugla',
     displayName: 'Jugla',
+    population: 23066,
     centerPos: {
       lat: 56.98531777624449,
       lng: 24.23431390996575,
@@ -468,6 +473,7 @@ const regions = [
   {
     id: 'vecpilseta',
     displayName: 'Vecpilsēta',
+    population: 1856,
     centerPos: {
       lat: 56.94892627100478,
       lng: 24.106791378839667,
@@ -514,6 +520,7 @@ const regions = [
   {
     id: 'andrejosta',
     displayName: 'Andrejosta',
+    population: 4990,
     centerPos: {
       lat: 56.971068505971054,
       lng: 24.09484774158446,
@@ -556,6 +563,7 @@ const regions = [
   {
     id: 'klusaiscentrs',
     displayName: 'Klusais Centrs',
+    population: -1,
     centerPos: {
       lat: 56.96002606143515,
       lng: 24.110383096198717,
@@ -594,6 +602,7 @@ const regions = [
   {
     id: 'kengarags',
     displayName: 'Ķengarags',
+    population: 45081,
     centerPos: {
       lat: 56.91350230230336,
       lng: 24.178293261828742,
@@ -632,6 +641,7 @@ const regions = [
   {
     id: 'bolderaja',
     displayName: 'Bolderāja',
+    population: 12447,
     centerPos: {
       lat: 57.02311471979948,
       lng: 24.03796974232136,

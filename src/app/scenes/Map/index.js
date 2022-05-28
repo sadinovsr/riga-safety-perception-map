@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Navigate } from 'react-router-dom';
 import { withScriptjs, withGoogleMap } from 'react-google-maps';
 import { Col, Row, Button, Offcanvas, OffcanvasHeader, OffcanvasBody } from 'reactstrap';
 import MapComponent from './components/MapComponent';
@@ -12,6 +13,7 @@ const WrappedMap = withScriptjs(withGoogleMap((props) => <MapComponent {...props
 
 class Map extends Component {
   state = {
+    toDashboard: false,
     showHeatMap: false,
     isFilterOpen: false,
     heatmapGreen: true,
@@ -155,6 +157,7 @@ class Map extends Component {
 
   render() {
     const {
+      toDashboard,
       showHeatMap,
       isFilterOpen,
       selectedAges,
@@ -197,6 +200,10 @@ class Map extends Component {
           >
             <h3>Filtri</h3>
             <h6>{`Izvēlētās izlases kopas izmērs: ${filteredData.responses.length}`}</h6>
+            <Button color="light" className="mt-1" onClick={() => this.setState({ toDashboard: true })}>
+              Uz datu sadaļu
+            </Button>
+            {toDashboard && <Navigate to="/dashboard" />}
           </OffcanvasHeader>
           <OffcanvasBody style={{ backgroundColor: '#333333' }}>
             <FilterMenu

@@ -34,11 +34,38 @@ class MapComponent extends Component {
     });
   };
 
+  // Get actual data points for each period
+  countPointsInRegion = (actualDataPoints, region) => {
+    // eslint-disable-next-line no-undef
+    const polygon = new google.maps.Polygon({ paths: region.path });
+    let count = 0;
+    actualDataPoints.forEach((point) => {
+      // eslint-disable-next-line no-undef
+      if (google.maps.geometry.poly.containsLocation(point, polygon)) {
+        count++;
+      }
+    });
+
+    // eslint-disable-next-line no-undef
+    const areaInSqMeters = google.maps.geometry.spherical.computeArea(polygon.getPath());
+    const areaInSqKm = areaInSqMeters / 1000000;
+    const pointsPerSqKm = (1 / areaInSqKm) * count;
+    const pointsPerResident = count / region.population;
+
+    return {
+      count,
+      pointsPerSqKm,
+      pointsPerResident,
+    };
+  };
+
   // Render everything for each region in the survey
-  renderRegions = () => {
-    const { data } = this.props;
+  renderRegions = (heatMapData) => {
+    const { data, showHeatMap, heatmapGreen, heatmapRegular } = this.props;
     return regions.map((region, idx) => {
       const avg = average(data.responses.map((item) => item.data[idx][this.props.selectedFilter]));
+      const actualDataCount =
+        showHeatMap && get(this.state, region.id) && this.countPointsInRegion(heatMapData, region);
       return (
         !isEmpty(region.path) && (
           <Fragment key={region.id}>
@@ -53,13 +80,58 @@ class MapComponent extends Component {
               onMouseOut={() => this.closeModal(region.id)}
             />
             {get(this.state, region.id) && (
-              <InfoBox defaultPosition={region.centerPos} options={{ closeBoxURL: '' }}>
-                <div style={{ color: 'white' }}>
+              <InfoBox
+                defaultPosition={region.centerPos}
+                options={{
+                  closeBoxURL: '',
+                  boxStyle: { overflow: 'unset', width: 'auto' },
+                }}
+              >
+                <div
+                  style={{
+                    color: 'white',
+                    padding: '10px',
+                    borderRadius: '10px',
+                    border: 'solid white 1px',
+                    backgroundColor: 'rgba(255,255,255,0.2)',
+                  }}
+                >
                   <h3>{region.displayName}</h3>
-                  <div style={{ fontSize: '1rem' }}>
-                    {`${data.header.data[this.props.selectedFilter]}`}
-                    <br />
-                    {`Vidēji: ${avg === -1 ? '-' : round(avg, 2)}`}
+                  <div style={{ fontSize: '1rem', overflow: 'visible' }}>
+                    <div style={{ borderTop: 'solid white 1px' }}>
+                      <b>Aptaujas dati</b>
+                    </div>
+                    <div className="mb-2">
+                      <b>{`(${data.header.data[this.props.selectedFilter]})`}</b>
+                    </div>
+                    <div className="mb-2">{`Vidēji: ${avg === -1 ? '-' : round(avg, 2)}`}</div>
+                    {showHeatMap && (heatmapGreen || heatmapRegular) && (
+                      <span>
+                        <div style={{ borderTop: 'solid white 1px' }}>
+                          <b>RPP un CSP dati par 2021 gadu</b>
+                        </div>
+                        <div className="mb-2">
+                          {heatmapGreen && heatmapRegular
+                            ? '(Satiksmes un vispārējā drošība)'
+                            : heatmapGreen
+                            ? '(Satiksmes drošība)'
+                            : '(Vispārējā drošība)'}
+                        </div>
+                        <div>
+                          {round(actualDataCount.count)}
+                          &nbsp;reģistrtētie gadījumi
+                        </div>
+                        <div>
+                          {round(actualDataCount.pointsPerSqKm)}
+                          &nbsp;gadījumi/km<sup>2</sup>
+                        </div>
+                        <div>
+                          {region.population === -1
+                            ? 'Nebija iespējams noteikt iedzīvotāju skaitu'
+                            : `${round(actualDataCount.pointsPerResident, 2)} gadījumi/1 reģiona iedzīvotāju`}
+                        </div>
+                      </span>
+                    )}
                   </div>
                 </div>
               </InfoBox>
@@ -88,7 +160,7 @@ class MapComponent extends Component {
         defaultCenter={{ lat: 56.9572613, lng: 24.1157757 }}
         defaultOptions={{ styles: mapStyle }}
       >
-        {this.renderRegions()}
+        {this.renderRegions(heatMapData)}
         {showHeatMap && (
           <HeatmapLayer
             data={heatMapData}
