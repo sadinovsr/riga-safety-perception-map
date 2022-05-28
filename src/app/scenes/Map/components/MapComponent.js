@@ -108,7 +108,7 @@ class MapComponent extends Component {
                     {showHeatMap && (heatmapGreen || heatmapRegular) && (
                       <span>
                         <div style={{ borderTop: 'solid white 1px' }}>
-                          <b>RPP un CSP dati par 2021 gadu</b>
+                          <b>RPP izsaukumu dati par 2021 gadu</b>
                         </div>
                         <div className="mb-2">
                           {heatmapGreen && heatmapRegular
@@ -119,7 +119,7 @@ class MapComponent extends Component {
                         </div>
                         <div>
                           {round(actualDataCount.count)}
-                          &nbsp;reģistrtētie gadījumi
+                          &nbsp;reģistrētie gadījumi
                         </div>
                         <div>
                           {round(actualDataCount.pointsPerSqKm)}
