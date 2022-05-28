@@ -81,11 +81,11 @@ class Dashboard extends Component {
           <thead>
             <tr>
               <th rowSpan={2} title={headerData.id} onClick={() => this.changeSort('id')}>
-                Response ID
+                Atbildes ID
                 {this.renderSortIcon('id')}
               </th>
               <th rowSpan={2} title={headerData.time} onClick={() => this.changeSort('time')}>
-                Time Taken
+                Izpildes laiks
                 {this.renderSortIcon('time')}
               </th>
               <th rowSpan={2} title={headerData.sex} onClick={() => this.changeSort('sex')}>
