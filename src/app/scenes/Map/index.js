@@ -7,6 +7,7 @@ import FilterMenu from './components/FilterMenu';
 import { BsSliders } from 'react-icons/bs';
 import data from '~/config/responses.json';
 import { isEmpty, isNil } from 'lodash';
+import pkgJson from '~/../package.json';
 import './map.css';
 
 const WrappedMap = withScriptjs(withGoogleMap((props) => <MapComponent {...props} />));
@@ -189,9 +190,17 @@ class Map extends Component {
             selectedFilter={selectedFilter}
           />
         </Col>
-        <Button className="filterButton" outline color="light" size="md" onClick={() => this.toggleFilterDashboard()}>
+        <Button
+          className="filterButton"
+          outline
+          color="light"
+          size="md"
+          onClick={() => this.toggleFilterDashboard()}
+          title="Open filter menu"
+        >
           <BsSliders />
         </Button>
+        <div className="versionText whiteText" title={`Version ${pkgJson.version}`}>{`v${pkgJson.version}`}</div>
         <Offcanvas isOpen={isFilterOpen} direction="top" backdrop={false} toggle={this.toggleFilterDashboard}>
           <OffcanvasHeader
             tag="div"
