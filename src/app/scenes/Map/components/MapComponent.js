@@ -50,7 +50,7 @@ class MapComponent extends Component {
     const areaInSqMeters = google.maps.geometry.spherical.computeArea(polygon.getPath());
     const areaInSqKm = areaInSqMeters / 1000000;
     const pointsPerSqKm = (1 / areaInSqKm) * count;
-    const pointsPerResident = count / region.population;
+    const pointsPerResident = (count / region.population) * 100;
 
     return {
       count,
@@ -128,7 +128,7 @@ class MapComponent extends Component {
                         <div>
                           {region.population === -1
                             ? 'Nebija iespējams noteikt iedzīvotāju skaitu'
-                            : `${round(actualDataCount.pointsPerResident, 2)} gadījumi/1 reģiona iedzīvotāju`}
+                            : `${round(actualDataCount.pointsPerResident, 2)} gadījumi/100 reģiona iedzīvotāju`}
                         </div>
                       </span>
                     )}
