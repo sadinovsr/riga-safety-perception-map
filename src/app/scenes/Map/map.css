@@ -38,6 +38,10 @@
   border-bottom: solid 2px #222222;
 }
 
+.btn-close {
+  background-color: white;
+}
+
 @media (max-width: 576px) {
   .offcanvas-body {
     overflow-y: auto;

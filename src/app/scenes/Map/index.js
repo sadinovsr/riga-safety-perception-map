@@ -178,7 +178,7 @@ class Map extends Component {
         <Col xs="12" style={{ padding: 0 }}>
           <WrappedMap
             googleMapURL={
-              'https://maps.googleapis.com/maps/api/js?key=&v=3.exp&libraries=geometry,drawing,places,visualization'
+              'https://maps.googleapis.com/maps/api/js?key=AIzaSyDV9CTVnUXe2jaxz99sJLE3y9qqICtEtvY&v=3.exp&libraries=geometry,drawing,places,visualization'
             }
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={<div style={{ height: `100%` }} />}
